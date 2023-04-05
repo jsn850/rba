@@ -334,13 +334,28 @@ input[type=email] {
   box-sizing: border-box;
 }
 
+/* DISCLAIMER */
 .disclaimer p {
   font-size:10px;
   line-height:12px;
   color:#999;
   clear:both;
-  padding-top:20px;
+  padding-top:40px;
 }
+
+/* READ MORE */
+#more {display: none;}
+#btnReadMore { 
+  font-size:9px;
+  text-decoration: underline;
+  color: #555;
+}
+
+#btnReadMore:hover { 
+  color: #333;
+}
+
+/* OFFER */
 
 #offer {
   color:#ffffff;
@@ -355,7 +370,6 @@ input[type=email] {
 #offer sup {
   font-size:20px;
 }
-
 
 /* INFIELD LABELS*/
 
