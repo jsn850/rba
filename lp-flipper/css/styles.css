@@ -345,6 +345,8 @@ input[type=email] {
 
 /* READ MORE */
 #more {display: none;}
+#more2 {display: none;}
+
 #btnReadMore { 
   font-size:9px;
   text-decoration: underline;
