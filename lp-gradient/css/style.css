@@ -139,8 +139,9 @@ input:focus::placeholder {
 .ifta-field {
 	border:0;
 	border-radius:6px;
-	padding:35px 20px 15px;
+	padding:30px 10px 10px 20px;
 	margin:0 0 20px;
+	height:60px;
 	width:100%;
 	box-shadow:inset 0 0 0 1px #ccc;
 }
