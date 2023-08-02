@@ -1,3 +1,8 @@
+@font-face {
+	font-family: 'itcFranklin'; 
+	src: url('../fonts/ITC\ -\ ITCFranklinGothicStd-Book.otf');
+   }
+
 body {
 	font-family: "Lato", sans-serif;
 	font-size:18px;
@@ -14,6 +19,7 @@ body {
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 	height: 100vh;
+	font-family: 'itcFranklin';
 }
 
 @keyframes gradient {
@@ -44,12 +50,6 @@ sup { font-size:12px; vertical-align:super;}
 	}
 }
 
-.header {
-		background-color:#fff;
-		position:relative;
-		z-index:2;
-}
-
 .btn-primary {
 	background: #DD5D22!important;
 	border-color: #DD5D22!important;
@@ -70,23 +70,28 @@ sup { font-size:12px; vertical-align:super;}
 	padding-top:3%;
 }
 
+@media (max-width: 767.9px) {
+	.form-section {
+		padding-top:0;
+	}
+}
+
 
 /******** Header ********/
 
-header {
-	font-size: 21px;
-	padding: 10px 0;
-	font-weight: 600;
+.header {
+	background-color:#fff;
+	position:relative;
+	z-index:2;
 }
 
-header a {
+.header a {
 	color: #DD5D22 !important;
 }
 
-header .logo {
+.header .logo {
 	height: 90px;
 }
-
 
 /******* IFTA Labels ****/
 label {
@@ -142,34 +147,50 @@ input:focus::placeholder {
 .offer-circle {
 	width: 100%;
 	height: 100%;
-	
 }
 
 .offer-circle .offer-circle-content {
 	width:100%;
-	padding:60px;
+	padding:10px;
 	color:#53b055;
 }
 
 .offer-circle-content h1 {
-	font-weight:600;
+	font-weight:500;
 	font-size:5rem;
+	line-height:4.75rem;
+}
+
+.offer-circle-content span {
+	font-size:10px;
+	padding:0;
+}
+
+@media (max-width: 767.9px) {
+	.offer-circle-content h1 {
+	font-size:1.75rem;
+	line-height:2.25rem;
+	}
+
+	.offer-circle .offer-circle-content {
+	padding:10px;
+	}
 }
 
 
 /********** TCPA *************/
 .tcpa {
-    font-size: 12px;
-	line-height: 14px;
-    color:#fff;
+    font-size: 10px;
+	line-height: 12px;
+    color:#95979A;
 	text-align: left;
 	font-weight:100;
 }
 
 .tcpa p{
-    font-size: 12px;
-	line-height: 14px;
-    color:#fff;
+    font-size: 10px;
+	line-height: 12px;
+    color:#95979A;
 	text-align: left;
 	font-weight:100;
 }
@@ -180,7 +201,7 @@ footer {
 	padding: 100px 0 0 0;
 	color: #95979A;
 	font-size: 12px;
-	line-height: 1.4;
+	line-height: 14px;
 }
 
 footer a {color:#95979A; text-decoration: underline;}
