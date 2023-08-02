@@ -76,6 +76,21 @@ sup { font-size:12px; vertical-align:super;}
 	}
 }
 
+.text-light-right {
+	background-image:
+		linear-gradient(to right, #53b055, #84da86);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: rainbow-animation 200s linear infinite;
+	}
+
+	@keyframes rainbow-animation {
+	to {
+		background-position: 4500vh;
+	}
+	  
+}
+
 
 /******** Header ********/
 
