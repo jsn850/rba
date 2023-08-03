@@ -176,6 +176,7 @@ input:focus::placeholder {
 	font-weight:500;
 	font-size:5rem;
 	line-height:4.75rem;
+	padding-top:3px;
 }
 
 .offer-circle-content span {
