@@ -1,0 +1,1 @@
+#recaptcha-container{display:flex;justify-content:center;margin:1rem 0}.error-container{display:none}.error-container.active{display:block;margin-top:1rem}.recaptcha-form-error,.os-form-error{color:#d0021b;font-size:16px;font-weight:bold;font-style:italic;text-align:center}@media(min-width:768px){.recaptcha-form-error,.os-form-error{font-size:18px}}

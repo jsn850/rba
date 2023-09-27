@@ -1,0 +1,38 @@
+﻿.myCalendar {
+    background-color: #f2f2f2;
+    width: 156px;
+    border: 10px solid #4CCAEF !important;
+    border-top: 0px !important;
+}
+
+.DaySelected {
+    background-color: rgba(1, 50, 32, 0.75) !important;
+    color: white !important;
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: larger;
+}
+
+.DaySelected a {
+    color: white !important;
+}
+
+.DayActive {
+    background-color: lightgreen;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.DayActive:hover {
+        background-color: white;
+}
+
+.DayDisabled {
+    background-color: rgba(0,0,0,0.1);
+    color: black;
+    font-style: italic;
+}
+
+.TitleStyle {
+    font-weight: bold;
+}

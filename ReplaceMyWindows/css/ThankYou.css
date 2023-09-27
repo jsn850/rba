@@ -1,0 +1,421 @@
+﻿/* ----------------
+	Custom Style
+-------------------*/
+
+
+
+
+
+    
+/******** Global ********/
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	color: #4A4A4A;
+	font-family: "Lato", sans-serif;
+    max-width: 100%;
+    
+}
+
+#thank-you-pg{
+  max-width: 1440px;
+  margin: auto;
+}
+
+h1 {
+	color: #417505;
+	font-family: "Lato Bold", sans-serif;
+    font-weight: 600;
+    max-width: 100%;
+    
+}
+h2 {
+	color: #4A4A4A;
+	font-family: "Lato Bold", sans-serif;
+    font-weight: 300;
+    max-width: 100%;
+    
+}
+h6 {
+    padding-bottom: 10px;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.button {
+	border-radius: 0px;
+    box-shadow: none !important;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+   
+}
+
+[contenteditable] {
+  outline: 0px solid transparent;
+}
+
+@media (max-width: 767.9px) {
+	.btn {
+		 font-size: 16px;
+        max-width: 100%;
+	}
+}
+
+@media (max-width: 520px) {
+    
+    .btn {
+       height: 55px; 
+       max-width: 100%;
+    }
+}
+
+.btn-primary {
+	background: #BA0D0D;
+	border-color: #BA0D0D;
+    border-radius: 0px;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    font-family: "Lato Bold", sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    width: 321px;
+    height: 65px;
+}
+.btn-primary:hover {
+	background: #840606;
+}
+
+
+.btn-secondary {
+	background: #EA821F;
+	border-color: #EA821F;
+    border-radius: 0px;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    font-family: "Lato Bold", sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    width: 321px;
+    height: 65px;
+}
+.btn-secondary:hover {
+	background: #CA6D15;
+}
+
+
+
+.col-lg-4 {
+    padding: 0;
+}
+
+.col-lg-6 {
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+
+.col-lg-12 {
+    max-width: 100% !important;
+    text-align: center !important;
+    float: left! important;
+    
+}
+
+#sep {
+    padding-top: 15px;
+}
+
+.logo {
+    max-width: 100%;
+    padding-bottom: 10px;
+   
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height:  auto;
+    text-align: center;
+    margin: auto;
+}
+
+
+
+/******* ICONS *******/
+
+.icon1 {
+    max-width: 170px; 
+    text-align: center;
+    padding-top: 5%;
+}
+.icon2 {
+    max-width: 150px; 
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+
+/******** HEADER ********/
+
+header {
+	
+	padding: 10px 0;
+    background-color: #ffffff !important;
+    display: inline;
+}
+
+header .logo {
+	height: 100px;
+    
+}
+
+.tagline{
+   font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-top: 5%;
+}
+
+
+/********** OFFER SECTION *********/
+
+div #offerBnr {
+ padding-top: 12px;
+}
+
+#offerBnr p {
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #417505;
+}
+
+.offer-banner {
+    padding: 2px 0px;
+}
+
+.offer-category {
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    color: #4A4A4A;
+/*    padding-top: 4%;
+    padding-bottom: 2%; */
+padding-top: 2px;
+}
+
+.offer-head {
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-size: 2.6em;
+    text-transform: normal;
+    font-weight: 400;
+    color: #4A90E2;
+/*    padding-top: 5%;*/
+    padding-top: 2px;
+  
+}
+
+.offer-sub {
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-size: 1.3em;
+    text-transform: normal;
+    font-weight: 300;
+    color: #4A4A4A;
+/*    padding-bottom: 2%;*/
+    padding-bottom: 2px;
+  
+}
+
+.offer-pic {
+    max-width: 100%;
+    
+}
+
+@media (max-width: 520px) {
+    
+.offer-pic {
+    max-width: 100%;
+    padding-top: 2px;
+} 
+    
+.offer-head {
+      font-size: 2.2em;  
+    }
+    
+#offerBnr p {
+    font-size: 1em;
+    letter-spacing: 1px;
+    line-height: 22px;
+    padding: 10px;
+    
+}
+.offer-category {
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-size: 1.1em;
+    line-height: 28px;
+    padding-bottom: 0; 
+}
+    
+ 
+}
+/********** END OFFER SECTION *********/
+
+
+
+
+
+/********** FORM *********/
+
+
+form {
+	color:#777777; 
+    font-size:12px;
+    line-height: 14px;
+    max-width: 100%;
+    
+}
+
+input[type=text], select {
+  width: 321px;
+  padding: 12px 20px;
+  margin: auto;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  box-sizing: border-box;
+}
+
+
+input {
+    color:#777777; 
+    height: 65px;
+    border: 1px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+
+
+.form-control {
+    width: 100%;
+    text-align: center;
+     border-radius: 0;
+}
+
+.form-group{
+   
+}
+@media (max-width: 520px) {
+   input {
+    width: 100%;
+    height: 55px;
+   font-size: 16px;
+} 
+    
+    input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: auto;
+ 
+}
+
+    
+}
+
+
+/********** END FORM*********/
+
+
+
+/******** FOOTER ********/
+
+footer {
+	padding-top: 100px;
+    text-align: center;
+	color: #95979A;
+	font-size: 12px;
+	line-height: 1.4;
+}
+.mouse {
+	padding-top: 100px;
+    text-align: center;
+	color: #95979A;
+	font-size: 12px;
+
+}
+
+@media (max-width: 767.9px) {
+	footer {
+		padding-top: 40px;
+		font-size: 11px;
+	}
+}
+
+
+@media (max-width: 767.9px) {
+
+}
+footer .logos img {
+	max-height: 100%;
+}
+
+/******** Responsive ********/
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 767.9px) {
+}
+
+@media (max-width: 520px) {
+}
+
+@media (max-width: 320px) {
+}
+.MobileOnly {
+    display: none !important;
+    text-align: center;
+    padding-left: 50px;
+}
+
+
+
+/******** Hide Mobile Phone ********/
+@media (max-width: 767px) {
+
+    .MobileOnly {
+        display: inline-block !important;
+        text-align: center;
+        padding-left: 50px;
+    }
+
+
+    .DesktopOnly {
+        display: inline-block !important;
+        text-align: center;
+        padding-left: 50px;
+    }
+}
+    /******** Show only on Desktop ********/
+    @media (max-width: 767px) {
+
+        .DesktopOnly {
+            display: none !important;
+            text-align: center;
+            padding-left: 50px;
+        }
+    }

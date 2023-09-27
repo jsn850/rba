@@ -1,0 +1,203 @@
+﻿/* ----------------
+	Custom Style
+-------------------*/
+
+/******** Global ********/
+body {
+    width: 100%;
+    padding: 0 10px;
+    margin: 0;
+}
+
+p {
+    color: #555;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+h1, h2, h3 {
+    color: #222;
+    font-family: "Lato", sans-serif;
+}
+
+    h1 a {
+        color: #222 !important;
+        font-size: 40px;
+    }
+
+a:link {
+    color: #28BDC5;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #28BDC5;
+}
+
+a:hover {
+    color: #555;
+    text-decoration: none;
+}
+
+.btn {
+    border-radius: 100px;
+    font-size: 16px;
+    /*height: 60px;*/
+    padding: 15px;
+}
+
+@media (max-width: 767.9px) {
+    .btn {
+        font-size: 14px;
+        padding: 15px;
+    }
+}
+
+.btn-primary {
+    background: #F5A623;
+    border: none;
+    color: #fff;
+}
+
+a.btn-primary {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-primary:hover {
+    background: #ED1D25;
+}
+
+.btn-light {
+    color: #ccc;
+    border-color: #ccc;
+    background: transparent;
+}
+
+
+/******** Header ********/
+
+header {
+    padding: 10px 0 0 0;
+    border-bottom: 1px solid #eeeeee;
+}
+
+    header .logo {
+        width: 320px;
+        text-align: left;
+    }
+
+.headerCTA {
+    text-align: right;
+    font-size: 14px;
+}
+
+    .headerCTA span {
+        margin-right: 20px;
+    }
+
+@media (max-width: 767.9px) {
+    header .logo {
+        width: 250px;
+    }
+
+    .headerCTA {
+        font-size: 11px;
+        text-align: left;
+    }
+
+        .headerCTA span {
+            margin-right: 0;
+        }
+}
+
+/******** Article ********/
+.article h2 {
+    padding-top: 40px;
+}
+
+.rightRail {
+    float: right;
+    margin: 40px 0 30px 40px;
+}
+
+.article a:hover {
+    color: #555;
+    text-decoration: underline;
+}
+
+@media (max-width: 767.9px) {
+    .article img {
+        float: none;
+    }
+
+    .rightRail {
+        margin: 40px 0 0 0;
+    }
+}
+
+
+/******** Call Out Box ********/
+.callOutBox {
+    background-color: #FEFFF6;
+    border: 1px solid #979797;
+    padding: 60px;
+}
+
+    .callOutBox img {
+        max-width: 490px;
+        text-align: center;
+    }
+
+
+/******** Support ********/
+.fineCopy {
+    font-size: 12px !important;
+}
+
+.asterisk {
+    font-size: .5em;
+    font-weight: 100;
+}
+
+.asteriskNum {
+    font-size: 8px;
+    vertical-align: super;
+    font-weight: 100;
+}
+
+.fs14 {
+    font-size: 14px !important;
+}
+
+
+/******** Footer ********/
+
+footer {
+    padding: 100px 0;
+}
+
+    footer p {
+        color: #95979A;
+        font-size: 12px;
+        line-height: 1.4;
+    }
+
+@media (max-width: 767.9px) {
+    footer {
+        padding: 40px 0;
+        font-size: 11px;
+    }
+}
+
+/******** Responsive ********/
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 767.9px) {
+}
+
+@media (max-width: 520px) {
+}

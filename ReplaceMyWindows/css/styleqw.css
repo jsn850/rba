@@ -1,0 +1,970 @@
+/* ----------------
+	Custom Style
+-------------------*/
+.tcpa {
+	font-size: 10px;
+	font-weight: 400;
+	color: #8f8f8f;
+	line-height: 14px;
+	margin-bottom: 0;
+	margin-top: 2px;
+	margin-left: 5px;
+	margin-right: 5px;
+	text-align: justify;
+}
+
+.req2 {
+	color: red;
+	position: relative;
+	font-size: 12px;
+}
+/******** Global ********/
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+	color: #555;
+	font-family: "Lato", sans-serif;
+}
+
+.btn {
+    box-shadow: none !important;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    height: 50px;
+	border-radius:0;
+}
+@media (max-width: 767.9px) {
+	.btn {
+		 font-size: 16px;
+	}
+}
+
+.btn-primary {
+	background: #e28724;
+	border-color: #e28724;
+}
+.btn-primary:hover {
+	background: #DD5D22;
+	border-color: #DD5D22;
+    padding-left: 0px;
+}
+
+.btn-primary:active {
+	background: #e28724;
+	border-color: #e28724;
+	margin-top:1px;
+}
+
+
+.btn-primary:focus {
+	background: #e28724;
+	border-color: #e28724;
+}
+
+.btn-light {
+	color: #ccc;
+	border-color: #ccc;
+	background: transparent;
+}
+
+#right{
+    text-align: right;
+}
+
+/* form controls*/
+
+.form-control {
+    border: 1px solid  #ccc;
+	border-radius: 8px;
+	height: 50px !important;
+	webkit-box-shadow: inset 0 2px 2px rgb(0 0 0 / 8%);
+	box-shadow: inset 0 2px 2px rgb(0 0 0 / 8%);
+	margin-bottom: 1em;
+	color: #999;
+}
+
+/*CHECKBOX*/
+/* The container */
+.form-check-container {
+ display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.form-check-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.form-check-container:last-child{
+  padding-bottom:20px;
+}
+
+
+/* Create a custom radio button */
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 120px;
+  height: 25px;
+  width: 25px;
+  background-color: #fff;
+  border:1px solid #51b057;
+  border-radius: 0%;
+}
+
+@media (max-width: 767.9px) {
+	.checkmark {
+		 margin-left: 0px;
+	}
+}
+
+/* On mouse-over, add a grey background color */
+.form-check-container:hover input ~ .checkmark {
+  background-color: #BDE3A0;
+}
+
+/* When the radio button is checked, add a blue background */
+.form-check-container input:checked ~ .checkmark {
+  background-color: #fff;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.form-check-container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.form-check-container .checkmark:after {
+ 	top: 6px;
+	left: 6px;
+	width: 12px;
+	height: 12px;
+	border-radius: 0%;
+	background-color: #51B057;
+}
+
+.sticky-note {background-color:lightgoldenrodyellow; padding:80px 20px; box-shadow: 6px 5px 5px #eee; margin:60px 0 0 0;}
+
+
+.quiz-intro {
+	margin:20px 0 150px 0!important; 
+	color:#000; 
+	text-align: center; 
+	text-transform: uppercase;
+	padding:0 60px;
+}
+
+.modal .quiz-intro a .btn{
+    margin-left: -18px;
+}
+
+.quiz-intro p {
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .quiz-intro {
+        padding:0 10px;
+        margin:0px 0 150px 0!important; 
+    }
+ 
+}
+
+
+.quiz-disclaim p {padding:20 10px; text-transform:none!important; font-size:12px; line-height: 15px;}
+.quiz-disclaim a {color:#999; text-decoration: underline;}
+
+.quiz-intro h2 {font-weight:bold; font-family:"ITCFranklinGothicStd-DmCp"; font-size:40px;}
+@media (max-width: 768px) {
+    .quiz-intro h2 {
+        font-size:30px;
+        line-height: 32px;
+        padding-top: 0px;
+    }
+}
+
+
+.quiz-intro h3 {font-weight: 300; font-family:"ITCFranklinGothicStd-Book"; letter-spacing: 2px; font-size:25px;}
+@media (max-width: 768px) {.quiz-intro h3 {font-size:18px;}
+p .finance{
+    margin-top: 10px;
+}}
+
+.quiz-intro .btn {height:50px; padding:10px 0 0 0; width:300px;}
+
+p .finance{
+    margin-top: 10px;
+}
+
+.quiz-form {
+	margin:0 0 40px 0;
+	padding:0 60px;
+	color:#000;
+	text-align: center;
+	/*border-bottom:1px solid #ccc;*/
+	
+}
+
+.quiz-form::after {content: url("../img/icon-arrow-bounce.gif"); opacity:0.4;}
+.quiz-form:last-child {display:none; }
+
+@media (max-width: 768px) {
+	.quiz-form {padding:0 10px;}
+}
+
+
+.quiz-form button {
+	margin:0 auto;
+	text-align: center;
+}
+
+.quiz-form h2, label{
+	text-transform: uppercase;
+}
+.quiz-form label {
+	font-family:"ITCFranklinGothicStd-Book";
+}
+@media (max-width: 768px) {.quiz-form label {margin:0 0 20px 0;}}
+
+@font-face {font-family:"ITCFranklinGothicStd-Book";
+    src: url("../fonts/ITCFranklinGothicStd-Book.otf");
+
+}
+.quiz-form label {
+	font-family:"ITCFranklinGothicStd-Book"; 
+}
+@media (max-width: 768px) {.quiz-form label {margin:0 0 20px 0;}}
+
+@font-face {font-family:"ITCFranklinGothicStd-DmCp";
+    src: url("../fonts/ITCFranklinGothicStd-DmCp.otf");
+}
+.quiz-form h2 {
+	font-family:"ITCFranklinGothicStd-DmCp";
+	text-transform: uppercase;
+	padding:20px 0 0 0;
+	text-align: center;
+	font-weight: bold;
+}
+@media (max-width: 768px) {
+	.quiz-form h2 {font-size:22px;}
+	.quiz-form h2::before { 
+  display: block; 
+  content: " "; 
+  margin-top: -285px; 
+  height: 285px; 
+  visibility: hidden; 
+  pointer-events: none;
+}
+}
+
+
+.quiz-form h3 {
+	font-family:"ITCFranklinGothicStd-DmCp";
+	text-transform: uppercase;
+	padding:20px 0 0 0;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+.quiz-form p{
+	text-transform: uppercase;
+	color:#51B057;
+	text-align: center;
+	font-family:"ITCFranklinGothicStd-Book";
+}
+
+.quiz-form label{
+	letter-spacing: 3px;
+}
+@media (max-width: 768px) {.quiz-form label {font-size:16px;}}
+
+.quiz-form-end input {
+	border-radius: 0px !important;
+	border: 1px solid #ccc;
+	height: 50px !important;
+	webkit-box-shadow: inset 0 2px 2px rgb(0 0 0 / 8%);
+	box-shadow: inset 0 2px 2px rgb(0 0 0 / 8%);
+	margin-bottom: 1em;
+	color: #000;
+	padding-left: 20px;
+	width: 100%;
+	margin-bottom: .5em;
+}
+
+.quiz-form-end {width:600px; margin:0 auto; padding-bottom:40px;}
+
+@media (max-width: 768px) {
+	.quiz-form-end input {height: 35px!important; margin-bottom: .5em;}
+	.quiz-form-end {width:100%;}
+}
+
+
+.quiz-form-end input::placeholder{
+	text-align:center!important;
+	
+	color:#ccc;
+}
+
+.quiz-form-end input:focus{
+	border:1px solid #aaa!important;
+}
+
+.quiz-form-end input:hover{
+	border:1px solid #aaa!important;
+}
+
+#countdown {
+  color:#fff;
+}
+@media (max-width: 768px) {#countdown {font-size:16px;}}
+
+
+#countdown ul li {
+  display:inline;
+  text-align: center;
+}
+
+.btn-close {color:#fff; background-color:#fff; text-align: right; border-radius:0px; background-color:#51b057; opacity:1; }
+
+.btn {
+ 
+}
+
+/*MODAL*/
+.modal-dialog {min-width:900px; height:580px; border:10px solid #51B057; top:20%;}
+		.modal-backdrop {
+			background:rgba(0, 0, 0, 0.6);
+}
+		
+		@media (max-width: 768px) {
+			.modal-dialog {
+				min-width: 95%;
+				max-height:520px;
+				margin:0 auto;
+				top:10%;
+			}
+		}
+
+.modal-footer p {color:#51b057; padding:0; margin:0;}
+.modal-header {background-color:#000; text-transform: uppercase; padding:0; border-radius:0px;}
+.modal-title {text-align: center; margin:0 auto; width:100%; margin:10px 0 0 0; font-family:"ITCFranklinGothicStd-Book"; font-size:18px;}
+.modal-dialog-scrollable .modal-body {overflow-x:clip;}
+
+.modal-title-offer { font-size:24px; line-height: 28px; color:#51b057;}
+
+.modal-content { border-radius:0px; border:none;}
+
+.modal-top { text-align: center; background-color:#000;}
+.modal-close {background-color:#000; text-align: right;}
+@media (max-width: 767.9px) {
+	.form-section .form-control {
+		font-size: 14px;
+	}
+	
+	.modal-title-offer { font-size:20px; padding:0 20px;}
+}
+
+.modal-backdrop-bg{
+    background-color: #000;
+}
+.modal-backdrop-opacity{
+    background: rgba(0,0,0,.2);
+}
+
+.nonono {padding-top:10px;}
+
+
+@media (max-width: 767.9px) {
+	.nonono {font-size:11px;
+    padding-top:0px;}
+	
+}
+
+input {
+
+	webkit-box-shadow: inset 0 2px 2px rgb(0 0 0 / 8%);
+	box-shadow: inset 0 2px 2px rgb(0 0 0 / 8%);
+}
+
+input.has-error {
+	border-color: #D0021B;
+}
+
+.form-select select {
+	-moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    appearance:none;
+}
+
+.form-select {
+	position: relative;
+}
+.form-select:after {
+	content: '';
+	position: absolute;
+	right: 10px;
+	top: 22px;
+	border-color: #777 #fff;
+	border-style: solid;
+	border-width: 10px 6px 0 6px;
+}
+
+.form-radio input {
+	display: none;
+}
+
+.form-radio .form-check-label {
+	height: 55px;
+	border: 1px solid #aaa;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    width: 65px;
+    justify-content: center;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+.form-radio .form-check-label:hover {
+	border-color: #222222;
+}
+.form-radio input:checked ~ .form-check-label{
+	border-color: #222222;
+	background: #222222;
+	color: #fff;
+}
+
+/******** Header ********/
+
+header {
+	font-size: 21px;
+	padding: 10px 0;
+	font-weight: 600;
+}
+
+header a {
+	color: #DD5D22 !important;
+}
+
+header .logo {
+	height: 90px;
+}
+
+
+/******** Multi Step Form ********/
+.form-section {
+	overflow: hidden;
+	position: relative;
+	height: 660px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	color: #fff;
+}
+@media (max-width: 520px) {
+	.form-section {
+		height:560px;
+		padding: 50px 0 0;
+	   	border-bottom: 1px solid #ccc;
+		/*justify-content: space-between;*/
+		/*height: auto;*/
+	}
+}
+
+.form-section .form-step {
+	display: none;
+}
+
+.form-section .form-step.active {
+	display: block;
+}
+
+.form-section .form-bg-image img {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	z-index: -1;
+	min-height: 100%;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+@media (max-width: 520px) {
+.form-section .form-bg-image img {
+	position: absolute;
+	left: 0%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	z-index: -1;
+	min-height: 100%;
+    min-width: 100%;
+    width: auto;
+    height: auto;	
+}
+    
+.container{
+      position: relative;
+    }
+}
+
+.form-section h3 {
+	font-size: 40px;
+	font-weight: 600;
+	line-height: 1;
+	margin: 0;
+    text-transform: capitalize;
+}
+@media (max-width: 767.9px) {
+	.form-section h3 {
+		font-size: 32px;
+		font-weight: 400;
+	}
+}
+
+.form-section h1 {
+	font-size: 90px;
+    font-weight: 900;
+    line-height: 1;
+	text-shadow: 2px 2px 5px red;
+}
+@media (max-width: 767.9px) {
+	.form-section h1 {
+		font-size: 70px;
+	}
+}
+@media (max-width: 520px) {
+	.form-section h1 {
+		font-size: 60px;
+	}
+    .form-section h3 {
+		font-size: 24px;
+	}
+}
+
+.form-section .helper {
+	width: 420px;
+	max-width: 90%;
+	margin: 0 auto;
+}
+@media (max-width: 767.9px) {
+	.form-section .helper {
+		font-size: 12px;
+	}
+}
+
+.form-section .form-error {
+	height: 0;
+	color: #D0021B;
+	font-style: italic;
+}
+
+.form-section .forms {
+	background: #fff;
+	border: 1px solid #979797;
+    border-radius: 8px;
+    width: 460px;
+    max-width: 100%;
+    margin: 0 auto;
+    color: #555;
+}
+@media (max-width: 767.9px) {
+	.form-section .forms {
+		border: 0;
+	    border-radius: 0;
+	    width: 100%;
+	}
+}
+
+.form-section .forms .form-step-title {
+	font-size: 20px;
+	font-weight: 600;
+}
+.form-section .forms .form-step.last .form-step-title {
+	font-size: 24px;
+}
+@media (max-width: 767.9px) {
+	.form-section .forms .form-step-title {
+		font-size: 18px;
+	}
+}
+
+.form-section .forms .form-step-subtitle {
+	font-size: 16px;
+    font-style: italic;
+    margin-bottom: 1em;
+    line-height: 1;
+}
+.form-section .forms .form-step.last .form-step-subtitle {
+	font-style: normal;
+	line-height: 1.6;
+	margin-bottom: 0;
+}
+.form-section .forms .form-step.last .phone-number a {
+	font-size: 24px;
+	color: #DD5D22;
+}
+.form-section .forms .form-step.last .request {
+	margin-top: 1em;
+}
+.form-section .forms .form-step.last .request a {
+	color: #555;
+	text-decoration: underline;
+}
+
+h1 .smTxt {
+    font-family: "Helvetica Condensed", sans-serif;
+	font-size: 15px;
+    font-weight: 400;
+    vertical-align: super;
+	top:-25px;
+    
+}
+
+/******** Testimonial ********/
+
+.discTxt{
+    font-size: small;
+}
+
+.row .element{
+    display: inline;
+}
+
+div .col-3 {
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.quoteSrc{
+    text-transform:uppercase;
+    font-size: 12px;
+    padding-top: 20px;
+}
+
+.quoteSrc a{
+    text-decoration: none;
+    color: #444444;
+}
+.quoteSrc a:hover{
+   cursor: default;
+}
+
+
+div .col-9{
+    padding-left: 80px;
+    padding-top: 30px;
+    font-size: 20px;
+    line-height: 22px;
+    text-transform: uppercase;
+
+}
+
+
+h4{
+    font-size: 40px;
+    font-weight:600;
+}
+
+
+@media (max-width: 520px) {
+	p .element {
+		font-size: x-small;
+	}
+    
+    .element span {
+    font-size: xx-small;
+}
+    
+    div .col-9{
+    padding-left: 10px;
+    padding-right: 0px;
+    font-size: 15px;
+     line-height: 17px;
+    padding-top: 15px;
+}
+    
+h1 {
+    font-size: 50px;
+}
+    
+ h4 {
+    font-size: 24px;
+    font-weight:600;
+}
+    
+h3 {
+    font-size: 28px;
+    text-transform: none;
+}
+   .col-3 img {
+       transform: scale(0.85);
+	}
+    .row .element{
+    text-align: center;
+}
+}
+
+
+/******** Testimonial ********/
+
+
+.testimonial-section {
+	padding: 85px 0 135px;
+    font-size: 25px;
+    font-weight: 300;
+    position: relative;
+}
+@media (max-width: 767.9px) {
+	.testimonial-section {
+		padding: 35px 0 115px;
+		font-size: 14px;
+	}
+}
+
+.testimonial-section .author {
+	font-size: 20px;
+    margin-top: 2em;
+}
+@media (max-width: 767.9px) {
+	.testimonial-author {
+		font-size: 12px;
+	}
+}
+
+.testimonial-section .figures {
+	width: 450px;
+    max-width: 90%;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.testimonial-section .figures .figure {
+	width: 128px;
+	height: 128px;
+	background: rgb(118,163,140);
+	border-radius: 50%;
+	color: #fff;
+	line-height: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+@media (max-width: 767.9px) {
+	.testimonial-section .figures .figure {
+		width: 80px;
+		height: 80px;
+	}
+}
+
+.testimonial-section .figures .figure .figure-value {
+	font-size: 40px;
+    font-weight: 700;
+}
+@media (max-width: 767.9px) {
+	.testimonial-section .figures .figure .figure-value {
+		font-size: 30px;
+	}
+}
+
+.testimonial-section .figures .figure .figure-title {
+	font-size: 16px;
+    font-weight: 400;
+    line-height: 1;
+    margin-top: .3em;
+}
+@media (max-width: 767.9px) {
+	.testimonial-section .figures .figure .figure-title {
+		font-size: 12px;
+	}
+}
+
+
+/******** Perks ********/
+
+.perks-section {
+	background: rgba(165,193,148,0.20);
+	padding: 150px 0 50px;
+	font-size: 16px;
+	color: #777;
+}
+@media (max-width: 767.9px) {
+	.perks-section {
+		line-height: 1.15;
+		padding: 80px 0 20px;
+	}
+}
+
+.perks-section .perks-icon {
+	height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width: 767.9px) {
+	.perks-section .perks-icon {
+		height: 65px;
+	}
+}
+
+.perks-section .perks-icon img {
+	max-height: 100%;
+}
+
+.perks-section .perks-title {
+    margin-top: 1em;
+    font-weight: 700;
+}
+
+
+
+/******** Get Started ********/
+
+.start-section {
+	height: 600px;
+	display: flex;
+	align-items: center;
+	background: url('../img/hero1a.jpg') no-repeat center left;
+	background-size: cover;
+	color: #fff;
+}
+@media (max-width: 767.9px) {
+	.start-section {
+		/* Need to replace with another image for mobile */
+		background-image: url('../img/hero-bottom-couple.jpg');
+		align-items: flex-start;
+		padding-top: 30px;
+	}
+}
+
+.start-section h1 {
+	font-size: 60px;
+	font-weight: 700;
+}
+@media (max-width: 767.9px) {
+	.start-section h1 {
+		font-size: 30px;
+	}
+}
+
+.start-section p {
+	font-size: 25px;
+    width: 500px;
+    margin: 0 auto 1.5em;
+    font-weight: 600;
+    max-width: 100%;
+}
+@media (max-width: 767.9px) {
+	.start-section p {
+		font-size: 15px;
+	}
+}
+
+.start-section .btn {
+	width: 300px;
+}
+
+.formOpt {
+	color:#777777; font-size:12px; line-height: 14px;
+}
+
+/*.introMssg {font-size:16px; line-height: 18px; margin:10px 0 0 0;}*/
+
+div .container .introMssg {
+    font-size:16px; 
+    line-height: 18px; 
+    margin:10px 0 0 0;
+}
+
+
+@media (max-width: 520px) {
+	.introMssg {
+    font-size: 14px;
+}
+}
+
+.fineCopy {font-size:9px; color:#999;}
+
+.testimonial  {
+    font-size: 25px;
+    padding: 50px 50px;
+    text-transform: none;
+}
+
+
+/******** Footer ********/
+
+footer {
+	padding: 100px 0;
+	color: #95979A;
+	font-size: 12px;
+	line-height: 1.4;
+}
+@media (max-width: 767.9px) {
+	footer {
+		padding: 40px 0;
+		font-size: 11px;
+	}
+}
+
+footer .logos {
+	height: 65px;
+}
+@media (max-width: 767.9px) {
+	footer .logos {
+		height: 50px;
+	}
+}
+footer .logos img {
+	max-height: 100%;
+}
+
+/******** Responsive ********/
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 767.9px) {
+}
+
+@media (max-width: 520px) {
+}
+
+
+
+@font-face {
+  src: url("../fonts/ITCFranklinGothicStd-Book.otf")!important;
+  src: url("../fonts/ITCFranklinGothicStd-DmCp.otf")!important;
+}

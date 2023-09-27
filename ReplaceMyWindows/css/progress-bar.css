@@ -1,0 +1,147 @@
+.steps-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+    width: 600px;
+    max-width: 100%;
+    font-size: large;
+    position: relative;
+    z-index: 1;
+}
+
+    .steps-div.os2c {
+        /*margin-top: 2.5rem;
+        margin-bottom: 3rem;
+        padding: 0 1rem;*/
+    }
+
+.step {
+    width: 3.5em;
+    height: 3.5em;
+    background-color: #9ea1a2;
+    color: white;
+    font-weight: 600;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.step1 {
+    background-color: #4caf50 !important;
+}
+
+.bar-container {
+    position: relative;
+    flex: 1;
+    height: 20px;
+    z-index: 0;
+    background-color: #9ea1a2;
+    z-index: 0;
+}
+
+.bar,
+.bar-container {
+    margin-left: -2.5%;
+    margin-right: -2.5%;
+    z-index: -1;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    background-color: #4caf50;
+    height: 100%;
+    width: 0%;
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+}
+
+@keyframes progress {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 105%;
+    }
+}
+
+.bar1.animate {
+    animation: progress 1s ease-in-out forwards;
+}
+
+.bar2.animate {
+    animation: progress 1s ease-in-out forwards;
+}
+
+.bar3.animate {
+    animation: progress 1s ease-in-out forwards;
+}
+
+.step1.animate {
+    animation: progress-bar-animation 1s forwards;
+    animation-delay: 1s;
+}
+
+.step2.animate {
+    animation: progress-bar-animation 1s forwards;
+    animation-delay: 1s;
+}
+
+.step3.animate {
+    animation: progress-bar-animation 1s forwards;
+    animation-delay: 1s;
+}
+
+.step4.animate {
+    animation: progress-bar-animation 1s forwards;
+    animation-delay: 1s;
+}
+
+/*RESPONSIVE*/
+@media (max-width: 767px) {
+    .steps-div {
+        padding: 0 2rem;
+    }
+
+    .step {
+        width: 3em;
+        height: 3em;
+    }
+
+    .bar-container {
+        height: 12px;
+    }
+}
+
+@media (max-width: 475px) {
+    .step {
+        width: 2em;
+        height: 2em;
+    }
+
+        .step.os2c {
+            width: 2.5em;
+            height: 2.5em;
+        }
+
+    .bar-container {
+        height: 9px;
+    }
+
+        .bar-container.os2c {
+            height: 12px;
+        }
+
+    .steps-div.os2c {
+        padding: 1rem;
+    }
+}

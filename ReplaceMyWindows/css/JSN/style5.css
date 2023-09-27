@@ -1,0 +1,364 @@
+﻿/* move special fonts to HTML head for better performance */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,600,700');
+
+
+/* custom template */
+html, body {
+    height: 100%;
+    font-family: 'Open Sans',arial,sans-serif;
+    background-color: #232323;
+}
+
+a {
+    color: #222222;
+}
+
+p {
+    padding: 10px 0 10px 0;
+}
+
+input {
+    color: #777777;
+    padding: 0 0 0 5px;
+    margin: 0 0 10px 0;
+    width: 100%;
+    font-size: 14px;
+    min-height: 35px;
+}
+
+select {
+    height: 40px;
+    width: 100%;
+    color: #777777;
+    font-size: 14px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+
+.yellow {
+    color: #EDAD54;
+}
+
+
+.wrapper, .row {
+    height: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+    .wrapper:before, .wrapper:after,
+    .column:before, .column:after {
+        content: "";
+        display: table;
+    }
+
+    .wrapper:after,
+    .column:after {
+        clear: both;
+    }
+
+.column {
+    height: 100%;
+    overflow: auto;
+    *zoom: 1;
+}
+
+    .column .padding {
+        padding: 20px;
+    }
+
+.box {
+    bottom: 0; /* increase for footer use */
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #232323;
+    /*
+    background-image:url('http://lorempixel.com/1024/760/nature/3/');
+    background-size:cover;
+    background-attachment:fixed;*/
+}
+
+.divider {
+    margin-top: 32px;
+}
+
+#main {
+    background-color: #fefefe;
+    background-image: url('../../img/bg-project-1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    right: 0;
+}
+
+#main2 {
+    background-color: #fefefe;
+    background-image: url('../../img/bg-project-2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.btn-primary {
+    padding: 10px 0 10px 0;
+}
+
+
+.sidebar-form {
+    max-width: 100%;
+}
+
+
+    .sidebar-form .btn-primary {
+        max-width: 100%;
+        text-align: center;
+    }
+
+#sidebar {
+    position: relative;
+}
+
+    #sidebar, #sidebar a {
+        color: #ffffff;
+        background-color: transparent;
+        text-shadow: 1px 0 1px #888888;
+    }
+
+        #sidebar a.logo {
+            display: block;
+            padding: 3px;
+            background-color: #fff;
+            color: #777777;
+            height: 40px;
+            width: 40px;
+            margin: 15px;
+            font-size: 26px;
+            font-weight: 700;
+            text-align: center;
+            text-decoration: none;
+            text-shadow: 0 0 0;
+        }
+
+        #sidebar h2, p {
+            text-align: center;
+        }
+
+#sidebar-footer {
+    position: absolute;
+    bottom: 5px;
+}
+
+#footer {
+    margin-bottom: 20px;
+}
+
+/* center and adjust the sidebar contents on smaller devices */
+@media (max-width: 768px) {
+    #sidebar, #sidebar a.logo {
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 30px;
+        font-size: 26px;
+    }
+
+        #sidebar a.logo {
+            font-size: 50px;
+            height: 75px;
+            width: 75px;
+            margin-bottom: 20px;
+        }
+}
+
+
+
+
+/* bootstrap overrides */
+
+h1, h2, h3 {
+    font-weight: 800;
+    font-family: 'Open Sans',arial,sans-serif;
+    padding: 10px 0 0 0;
+    margin: 0;
+}
+
+h2 {
+    font-size: 23px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+@media (max-width: 500px) {
+    h2 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.label-default {
+    background-color: #dddddd;
+}
+
+.page-header {
+    border-top: 1px solid #eeeeee;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    text-align: center;
+}
+
+    .page-header p {
+        padding: 0 0 0 0;
+        margin: 0 0 10px 0;
+    }
+
+.col-sm-9.full {
+    width: 100%;
+}
+
+small.text-muted {
+    font-family: courier,courier-new,monospace;
+}
+
+.logo {
+    padding: 20px 0 10px 0;
+    margin-left: 25%;
+    width: 50%;
+}
+
+.fine p {
+    font-size: 12px;
+}
+
+.legal p {
+    font-size: 10px;
+    line-height: 12px;
+    padding: 0;
+    margin: 0;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+
+
+.read-more-state {
+    display: none;
+}
+
+.read-more-target {
+    opacity: 0;
+    max-height: 0;
+    font-size: 0;
+    transition: .25s ease;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+    opacity: 1;
+    font-size: inherit;
+    max-height: 999em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+    content: 'Show more';
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+    content: 'Show less';
+}
+
+.read-more-trigger {
+    cursor: pointer;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 10px;
+    line-height: 12px;
+    text-decoration: underline;
+}
+
+.footer-logos {
+    text-align: center;
+}
+
+    .footer-logos img {
+        margin: 60px 10px 0 10px;
+    }
+
+.footer-legal p {
+    font-size: 10px;
+    color: #ffffff;
+}
+
+.footer-legal a {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+
+
+
+/*CSS for basic styling and non-retina image path:*/
+.icon-arrow-save {
+    /*width: 257px;
+  height: 122px;*/
+    /*background-image: url('../img/icon-save-20p.png');*/
+    position: absolute;
+    /*margin-top:40px;
+  margin-left:-50px;*/
+    z-index: 9999;
+    left: -35px;
+    padding: 0;
+}
+
+
+.icon-arrow-save-mob {
+    /*width: 257px;
+  height: 122px;*/
+    /*background-image: url('../img/icon-save-20p.png');*/
+    /*margin-top:40px;
+  margin-left:-50px;*/
+    z-index: 9999;
+    left: -35px;
+    padding: 0;
+}
+
+
+
+/*CSS for serving the retina image to devices with a high "device-pixel-ratio":*/
+@media only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-devicepixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
+}
+
+
+.fs20 {
+    font-size: 20px;
+}
+
+.fs18 {
+    font-size: 18px;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+
+/*No Scroolbar*/
+::-webkit-scrollbar {
+    display: none;
+}

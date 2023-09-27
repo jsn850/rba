@@ -1,0 +1,457 @@
+/* ----------------
+	Custom Style
+-------------------*/
+.tcpa p {
+	font-size: 10px;
+	font-weight: 400;
+	color: #8f8f8f;
+	line-height: 14px;
+	margin-bottom: 0;
+	margin-top: 2px;
+	margin-left: 5px;
+	margin-right: 5px;
+	text-align: justify;
+}
+
+.req {
+	color: red;
+/*	position: absolute;*/
+	left: 0;
+	top: 100%;
+	font-size: 12px;
+}
+/******** Global ********/
+
+body {
+	color: #555;
+	font-family: "Lato", sans-serif;
+}
+
+h1 {font-size:50px; font-weight:100; color:#020303;}
+h2 {color:#000;}
+a {color:#7a092b; text-decoration: underline;}
+a:hover {color:black; text-decoration: none;}
+
+sup {
+   font-size: 10px;
+   vertical-align:super;
+   line-height: 40px;
+   font-weight:100;
+}
+
+#hero p {font-size:20px;}
+	@media (max-width: 767.9px) {
+		#hero p {font-size:18px;
+		}
+	}
+
+
+
+footer a {color:#999; text-decoration: underline;}
+
+.btn {
+    box-shadow: none !important;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    height: 50px;
+	letter-spacing: 3px;
+}
+	@media (max-width: 767.9px) {
+		.btn {
+			 font-size: 16px;
+		}
+	}
+
+.color-primary {color: #36688e!important;}
+.color-gray {color:#676767!important;}
+.color-white {color:#fff!important;}
+
+.fs-small {font-size:20px!important;}
+	@media (max-width: 767.9px) {
+	.fs-small {font-size:14px!important;}	
+}
+
+.btn-primary {
+	background: #36688e;
+	border-color: #36688e;
+}
+.btn-primary:hover {
+	background: #1875bb;
+	border-color: #1875bb;
+}
+.btn-light {
+	color: #ccc;
+	border-color: #ccc;
+	background: #ffffff;
+}
+
+
+.forms h1 {text-align: center; margin:0 auto;}
+	@media (max-width: 767.9px) {
+		.forms h1 {
+			font-size: 30px;
+		}
+	}
+
+
+/* form controls*/
+.form-control {
+    border: 1px solid  #ccc;
+	height: 50px !important;
+	webkit-box-shadow: inset 0 2px 2px rgb(0 0 0 / 8%);
+	box-shadow: inset 0 2px 2px rgb(0 0 0 / 8%);
+	margin-bottom: 1em;
+	color: #999;
+	
+}
+	@media (max-width: 767.9px) {
+		.form-section .form-control {
+			font-size: 14px;
+		}
+	}
+
+input {
+	webkit-box-shadow: inset 0 2px 2px rgb(0 0 0 / 8%);
+	box-shadow: inset 0 2px 2px rgb(0 0 0 / 8%);
+}
+
+input.has-error {
+	border-color: #D0021B;
+}
+input {margin:0 auto;}
+input:hover {border:1px solid #333;}
+input::placeholder {text-align: center!important; display:none;}
+
+
+.form-select select {
+	-moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    appearance:none;
+}
+
+.form-select {
+	position: relative;
+}
+.form-select:after {
+	content: '';
+	position: absolute;
+	right: 10px;
+	top: 22px;
+	border-color: #777 #000;
+	border-style: solid;
+	border-width: 10px 6px 0 6px;
+}
+
+.form-radio input {
+	display: none;
+}
+
+.form-radio .form-check-label {
+	height: 55px;
+	border: 1px solid #aaa;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    width: 65px;
+    justify-content: center;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+.form-radio .form-check-label:hover {
+	border-color: #000;
+	background-color:#fff; 
+	color:#333;
+}
+.form-radio input:checked ~ .form-check-label{
+	border-color: #000;
+	background: #000;
+	color: #fff;
+}
+
+/******** Row ********/
+div .row {
+    padding-top: 30px;
+}
+
+#main {
+    margin-bottom: 40px;
+}
+/******** Header ********/
+
+header {
+	font-size: 21px;
+	padding: 10px 0;
+	font-weight: 600;
+}
+
+header a {
+	color: #DD5D22 !important;
+}
+
+section {margin:0 0 40px 0;}
+@media (max-width: 520px){
+    section {margin:0 0 20px 0;}
+}
+
+#secondary-section h2 {
+	font-size:50px;
+}
+
+#secondary-section p {
+	font-size:30px;
+}
+	@media (max-width: 767.9px) {
+        
+        #secondary-section {
+		margin-top: 0px;
+       padding-top: 0px;
+	}
+	#secondary-section h2 {
+		font-size:20px;
+	}
+
+#secondary-section p {
+	font-size:18px;
+}
+}
+
+
+#benefits-section {
+	background-color: #81b2d8;
+	padding:80px 0;
+}
+
+#benefits-section h2 {
+	font-size:50px;
+}
+#benefits-section p {
+	font-size:25px;
+}
+
+	@media (max-width: 767.9px) {	
+	#benefits-section {
+		background-color: #81b2d8;
+		padding:40px 0;
+	}	
+#benefits-section h2 {
+	font-size:30px;
+}
+#benefits-section p {
+	font-size:16px;
+}
+}
+
+#end-section {
+	font-size:30px;
+}
+
+.section-textanchor-left h3 {text-transform: uppercase; color:#81b2d8;font-weight: 600; font-size:85px;text-align: left; position: relative; top:30px; opacity:.3;}
+.section-textanchor-right h3 {text-transform: uppercase; color:#81b2d8;font-weight: 600; font-size:85px;text-align: right; position: relative; top:-65px; opacity:.3;}
+	@media (max-width: 767.9px) {
+		.section-textanchor-left h3 {text-transform: uppercase; color:#81b2d8;font-weight: 600; font-size:20px; text-align: left; position: relative; top:13px;}
+	.section-textanchor-right h3 {text-transform: uppercase; color:#81b2d8;font-weight: 600; font-size:20px;text-align: right; position: relative; top:-65px;}
+	}
+
+
+.logo {
+	height: 90px;
+	top:0;
+}
+
+.logo img {width:200px;}
+
+
+/******** Multi Step Form ********/
+.form-section {
+	/*overflow: hidden;*/
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	color: #000;
+}
+	@media (max-width: 767.9px) {
+		.form-section {
+			/*justify-content: space-between;*/
+			/*height: auto;*/
+		}
+	}
+
+.form-section .form-step {
+	display: none;
+	max-width:500px;
+}
+
+.form-section .form-step.active {
+	display: block;
+}
+
+.form-section .form-bg-image img {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	z-index: -1;
+    /*min-height: 100%;*/
+    min-width: 100%;
+    width: auto;
+  /* height: auto;*/
+  /* padding-top: 800px;*/
+}
+
+	@media (max-width: 520px) {
+	.form-section .form-bg-image img {
+		position: absolute;
+		left: 0%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		z-index: -1;
+		min-height: 100%;
+		min-width: 100%;
+		width: auto;
+		height: auto;	
+	}
+	}
+
+.form-section h3 {
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 1;
+	margin: 0;
+	text-transform: uppercase;
+}
+	@media (max-width: 767.9px) {
+		.form-section h3 {
+			font-size: 20px;
+			font-weight: 400;
+		}
+	}
+
+
+.form-section .helper {
+	width: 420px;
+	max-width: 90%;
+	margin: 0 auto;
+	font-weight:300;
+	font-size:12px;
+}
+	@media (max-width: 767.9px) {
+		.form-section .helper {
+			font-size: 12px;
+		}
+	}
+
+.form-section .form-error {
+	height: 0;
+	color: #D0021B;
+	font-style: italic;
+}
+
+
+.form-section .forms .form-step-title {
+	font-size: 20px;
+	font-weight: 300;
+	color:#282929;
+	padding:20px 0;
+}
+
+.color-text {
+    color: #36688e!important;
+font-size: 22px;
+	font-weight: 300;
+}
+
+
+.form-section .forms .form-step.last .form-step-title {
+	font-size: 24px;
+}
+	@media (max-width: 767.9px) {
+		.form-section .forms .form-step-title {
+			font-size: 18px;
+		}
+	}
+
+.form-section .forms .form-step-subtitle {
+	font-size: 16px;
+    font-style: italic;
+    margin-bottom: 1em;
+    line-height: 1;
+}
+.form-section .forms .form-step.last .form-step-subtitle {
+	font-style: normal;
+	line-height: 1.6;
+	margin-bottom: 0;
+}
+.form-section .forms .form-step.last .phone-number a {
+	font-size: 24px;
+	color: #d10707;
+}
+.form-section .forms .form-step.last .request {
+	margin-top: 1em;
+}
+.form-section .forms .form-step.last .request a {
+	color: #000;
+	text-decoration: underline;
+}
+
+
+
+.forms span {padding-top:100px;}
+
+
+.mainOffer {
+	font-size:85px;
+	line-height: 83px;
+}
+
+
+.mainOffer sup {
+	vertical-align: top!important;
+}
+
+
+.formOpt {
+	color:#777777; font-size:12px; line-height: 14px;
+}
+
+
+/******** Footer ********/
+
+footer {
+	padding: 100px 0;
+	color: #95979A;
+	font-size: 12px;
+	line-height: 1.4;
+}
+	@media (max-width: 767.9px) {
+		footer {
+			padding: 40px 0;
+			font-size: 11px;
+		}
+	}
+
+
+footer .logos {
+	height: 65px;
+}
+	@media (max-width: 767.9px) {
+		footer .logos {
+			height: 50px;
+		}
+	}
+footer .logos img {
+	max-height: 100%;
+}
+
+/******** Responsive ********/
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 767.9px) {
+}
+
+@media (max-width: 520px) {
+}

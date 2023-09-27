@@ -1,0 +1,100 @@
+﻿/* ROTATE */
+.rotateCurrent {
+    animation: rotateCurrent 0.5s forwards;
+}
+
+@keyframes rotateCurrent {
+    0% {
+        transform: rotateX(0deg);
+        opacity: 1;
+    }
+
+    100% {
+        transform: rotateX(90deg);
+        opacity: 0;
+    }
+}
+
+.rotateNext {
+    animation: rotateNext 0.5s forwards;
+}
+
+@keyframes rotateNext {
+    0% {
+        transform: rotateX(90deg);
+        opacity: 0;
+    }
+
+    100% {
+        transform: rotateX(0deg);
+        opacity: 1;
+    }
+}
+/* END ROTATE */
+
+/* FADE */
+.fadeOut {
+    animation: fadeOut 0.5s ease-in-out;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.fadeIn {
+    animation: fadeIn 0.5s forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+/* END FADE */
+
+/* RISE & DROP */
+
+.riseUp {
+    animation: riseUp 0.5s forwards;
+}
+
+@keyframes riseUp {
+    0% {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+}
+
+.dropIn {
+    animation: dropIn 0.5s forwards;
+}
+
+@keyframes dropIn {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+/* END RISE & DROP */
+
+

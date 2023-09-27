@@ -1,0 +1,107 @@
+﻿/***** THEMES *****/
+.themeBG {
+    background-color: #f8f8f8 !important;
+}
+
+.themeColor {
+    color: #000 !important;
+}
+
+.form-block {
+    background: rgba(118, 137, 163, 0.4) !important;
+}
+
+
+.logo {
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f8f8f8 !important;
+}
+
+.form-section .forms {
+    max-width: 550px;
+    color: #555;
+    margin: 0 !important;
+}
+
+@media (max-width: 767.9px) {
+    .form-section .forms {
+        background: #fff;
+        border: 1px solid #979797;
+    }
+}
+
+.disc {
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #417505;
+}
+
+.form-step {
+    margin-bottom: 60px !important;
+}
+
+
+.heroOffer {
+    font-size: 70px !important;
+}
+
+.heroIntro {
+    font-size: 28px;
+}
+
+.formDisclaim {
+    clear: both;
+    font-size: .75em;
+    padding: 0 0 20px 0;
+    color: #999;
+    text-align: left;
+}
+
+@media (max-width: 767.9px) {
+    .formDisclaim {
+        text-align: center !important;
+    }
+}
+
+input {
+    margin-top: 0 !important;
+}
+
+.formFloat {
+    float: left;
+    padding: 0 10px 0 10px;
+    margin: 0 0 20px 0;
+}
+
+@media (max-width: 767.9px) {
+    .heroOffer {
+        font-size: 35px !important;
+        text-align: center !important;
+    }
+
+    .heroIntro {
+        font-size: 14px;
+        text-align: center !important;
+    }
+
+    .form-section .forms {
+        margin: 0 auto;
+    }
+
+        .form-section .forms input {
+            margin: 0 auto;
+        }
+
+    .form-step {
+        margin-bottom: 0 !important;
+    }
+
+    .formFloat {
+        float: none;
+    }
+
+        .formFloat input {
+            margin: 0;
+        }
+}
