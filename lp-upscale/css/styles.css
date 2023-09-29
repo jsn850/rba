@@ -15,13 +15,12 @@
   --warning: #dd0000;
   --textSize1: 3.333rem; /*60px*/
   --textSize2: 2.222rem; /*40px*/
-  --textSize3: 1.667rem; /*30px*/
+  --textSize3: 1.556rem; /*28px*/
   --textSize4: 1rem;    /*18px*/
   --textSize5: 0.889rem; /*16px*/
   --textSize6: 0.556rem; /*10px*/
-
-
 }
+
 
 @font-face {
     font-family: itcfranklingothic;
@@ -83,6 +82,8 @@ strong {font-family: itcfranklingothicDemi, 'Lato', sans-serif;}
 .fs5 { font-size: var(--textSize5); line-height: 120%;}
 .fs6 { font-size: var(--textSize6); line-height: 120%;}
 .fineCopy { font-size: var(--textSize6); line-height: 120%;}
+
+.letterSpace1 { letter-spacing: 5px;}
 
 /*** BUTTONS ***/
 .btnPrimary {background-color: var(--rba-green); color:#fff; padding:10px 20px;}
