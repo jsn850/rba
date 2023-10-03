@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">	
+  <title>Renewal By Andersen</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+
+	
+	<link href="css/datetimepicker.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment-with-locales.min.js" integrity="sha512-LGXaggshOkD/at6PFNcp2V2unf9LzFq6LE+sChH7ceMTDP0g2kn6Vxwgg7wkPP7AAtX+lmPqPdxB47A0Nz0cMQ==" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/datetimepicker.js"></script>
+	
+	 <script type="text/javascript">
+    $(document).ready( function () {
+        $('#picker').dateTimePicker();
+        $('#picker-no-time').dateTimePicker({ showTime: false, dateFormat: 'DD/MM/YYYY', title: 'Select Date'});
+    })
+    </script>
+	
+</head>
+<body>
+	
+
+<div id="bodyColor" class="bodyMax">
+<div class="container">	
+<section id="blockLogo">
+	<div class="row d-flex justify-content-center text-center">
+		<div class="col-6">
+			<img src="images/logo-rba-mob.png" width="260" alt="Renewal By Andersen">
+		</div>	
+	</div>			
+</section>
+
+<section id="blockHero">	
+	<div class="row">
+			<a href="index.html"><img src="images/hero-offer.jpg" alt="Buy One Get One 40% OFF" width="100%"></a>
+	</div>
+</section>	
+	
+<section id="blockForm">
+  <div class="row">
+  <div class="col-12 col-md-12">
+      <form id="leadform2">
+	 <!-- <h1>Your Free Window Replacement Quote</h1>-->
+		  
+      	<!--8-->	
+      <fieldset class="form-step "> 
+		  
+
+                      <div class="form-step-title pt-3"><p><h3>Almost there!</h3><br> Please fill out the following questions before selecting your date and time.</p></div>
+                                      
+		  							 <div class="form-step-controls pb-4 pr-2">
+										 <h4>Are you the property owner?</h4>
+                                          <div class="form-radio form-check-inline">
+                                              <input class="form-check-input" type="radio" name="homeowner" id="homeowner1" value="0" >
+                                              <label class="form-check-label" for="homeowner1">Yes</label>
+                                          </div>
+                                          <div class="form-radio form-check-inline">
+                                              <input class="form-check-input" type="radio" name="homeowner" id="homeowner2" value="0">
+                                              <label class="form-check-label" for="homeowner2">No</label>
+                                          </div>
+                                      </div>
+		  
+		  
+		  <!--HIDE
+                                      <div class="form-step-controls pb-4 pr-2">
+                                       		<h4>If there is another member of your household that may join us at the visit, please list their name here:</h4>
+                                              <input type="text" class="form-control" required placeholder="City" name="city">
+                              
+                                              <div class="form-select">
+												  <input type="text" class="form-control" required placeholder="Full Name" name="fullname"> 
+                                         	 </div>
+										  
+										  <input type="text" class="form-control" required placeholder="Zip" name="zip"> 
+                                      
+                                        </div>
+		  -->
+		  
+		  
+		 								 <div class="form-step-controls pb-4 pr-2">
+                                       		<h4>How can we help you?</h4>
+											 
+                                              <div class="form-radio form-check-inline">
+                                              <input class="form-check-input" type="checkbox" name="wdreplace" id="wdreplace1" value="0" >
+                                              <label class="form-check-label" for="wdreplace1">Window/Door Replacement</label>
+                                          </div>
+                                          <div class="form-radio form-check-inline">
+                                              <input class="form-check-input" type="checkbox" name="servicerepair" id="servicerepair1" value="1">
+                                              <label class="form-check-label" for="servicerepair1">Service &amp; Repair </label>
+                                          </div>
+                                      
+                                        </div>
+		  
+		  <!--HIDE
+		  								<div class="form-step-controls pb-4 pr-2">
+                                       		<h4>Property Address</h4>
+                                              <input type="text" class="form-control" required placeholder="Single family" name="Singlefamily">
+                                        </div>
+		  -->
+		  
+		  								<div class="form-step-controls pb-4 pr-2">
+										 <h4>What type of property is your home?</h4>
+                                          <div class="form-radio form-check-inline">
+                                              <input class="form-check-input" type="radio" name="propertytype" id="singlefamily1" value="0">
+                                              <label class="form-check-label" for="singlefamily1">Single Family</label>
+                                          </div>
+                                          <div class="form-radio form-check-inline">
+                                              <input class="form-check-input" type="radio" name="propertytype" id="TownhomeCondo1" value="1">
+                                              <label class="form-check-label" for="TownhomeCondo1">Townhome/Condominium</label>
+                                          </div>
+										  <div class="form-radio form-check-inline">
+                                              <input class="form-check-input" type="radio" name="propertytype" id="MobileManufactured2" value="2">
+                                              <label class="form-check-label" for="MobileManufactured2">Mobile/Manufactured</label>
+                                          </div>
+										  <div class="form-radio form-check-inline">
+                                              <input class="form-check-input" type="radio" name="propertytype" id="otherproperty3" value="3">
+                                              <label class="form-check-label" for="otherproperty3">Other</label>
+                                          </div>
+                                      </div>
+		  
+		  
+		  								<div class="form-step-controls pb-4 pr-2">
+                                       		<h4>Approximately how many windows/doors are you looking to replace?</h4>
+                                              <select name="howmanywindowsdoors" class="form-control">
+                                                      <option># of Windows</option>
+                                                      <option value="noofwin">1</option>
+                                                      <option value="noofwin">2</option>
+                                                      <option value="noofwin">3</option>
+                                              </select>
+											
+											  <select name="howmanywindowsdoors" class="form-control">
+                                                      <option># of Doors</option>
+                                                      <option value="noofdoor">1</option>
+                                                      <option value="noofdoor">2</option>
+                                                      <option value="noofdoor">3</option>
+                                              </select>
+                                        </div>
+		  
+		  
+		  								<div class="form-step-controls pb-4 pr-2">
+                                       		<h4>What material are your current windows and/or doors?</h4>
+											 
+                                              <div class="form-radio form-check-inline">
+                                              <input class="form-check-input" type="radio" name="materials" id="matwood" value="0" >
+                                              <label class="form-check-label" for="matwood">Wood</label>
+                                          </div>
+                                          <div class="form-radio form-check-inline">
+                                              <input class="form-check-input" type="radio" name="materials" id="matmetal" value="1">
+                                              <label class="form-check-label" for="matmetal">Metal </label>
+                                          </div>
+											<div class="form-radio form-check-inline">
+                                              <input class="form-check-input" type="radio" name="materials" id="matvinyl" value="2">
+                                              <label class="form-check-label" for="matvinyl">Vinyl </label>
+                                          </div>
+											<div class="form-radio form-check-inline">
+                                              <input class="form-check-input" type="radio" name="materials" id="matunsure" value="3">
+                                              <label class="form-check-label" for="matunsure">Unsure </label>
+                                          </div>
+                                      
+                                        </div>
+		  
+		  
+		  								<div class="form-step-controls pb-4 pr-2">
+                                       		<h4>What is the approximate age of your windows and/or doors?</h4>
+											 
+                                              <div class="form-radio form-check-inline">
+                                              <input class="form-check-input" type="radio" name="windoorage" id="age5" value="0" >
+                                              <label class="form-check-label" for="age5">Under 5 years</label>
+                                          </div>
+                                          <div class="form-radio form-check-inline">
+                                              <input class="form-check-input" type="radio" name="windoorage" id="age5-10" value="1">
+                                              <label class="form-check-label" for="age5-10">5-10 years </label>
+                                          </div>
+											<div class="form-radio form-check-inline">
+                                              <input class="form-check-input" type="radio" name="windoorage" id="age10-20" value="2">
+                                              <label class="form-check-label" for="age10-20">10-20 years </label>
+                                          </div>
+											<div class="form-radio form-check-inline">
+                                              <input class="form-check-input" type="radio" name="windoorage" id="age20" value="3">
+                                              <label class="form-check-label" for="age20">Over 20 years </label>
+                                          </div>
+                                      
+                                        </div>
+		  
+		  
+		  
+		  								<div class="form-step-controls pb-4 pr-2">
+                                       		<h4>What are your current window concerns?</h4>
+											 
+                                              <div class="form-radio form-check-inline">
+                                              <input class="form-check-input" type="checkbox" name="concernoperate" id="concernoperate" value="0" >
+                                              <label class="form-check-label" for="concernoperate">Hard to operate</label>
+                                          </div>
+                                          <div class="form-radio form-check-inline">
+                                              <input class="form-check-input" type="checkbox" name="concernee" id="concernee" value="0">
+                                              <label class="form-check-label" for="concernee">Not energy efficient</label>
+                                          </div>
+											<div class="form-radio form-check-inline">
+                                              <input class="form-check-input" type="checkbox" name="concernrot" id="concernrot" value="0">
+                                              <label class="form-check-label" for="concernrot">Rotting </label>
+                                          </div>
+											<div class="form-radio form-check-inline">
+                                              <input class="form-check-input" type="checkbox" name="concernfog" id="concernfog" value="0">
+                                              <label class="form-check-label" for="concernfog">Fogging/condensation</label>
+                                          </div>
+											
+											
+											  <div class="form-radio form-check-inline">
+                                              <input class="form-check-input" type="checkbox" name="concernvinyl" id="concernvinyl" value="0">
+                                              <label class="form-check-label" for="concernvinyl">Vinyl</label>
+                                          </div>
+                                          <div class="form-radio form-check-inline">
+                                              <input class="form-check-input" type="checkbox" name="concernstyle" id="concernstyle" value="0">
+                                              <label class="form-check-label" for="concernstyle">I want to change the style</label>
+                                          </div>
+											<div class="form-radio form-check-inline">
+                                              <input class="form-check-input" type="checkbox" name="concernwarp" id="concernwarp" value="0">
+                                              <label class="form-check-label" for="concernwarp">Warping </label>
+                                          </div>
+											<div class="form-radio form-check-inline">
+                                              <input class="form-check-input" type="checkbox" name="concernnone" id="concernnone" value="0">
+                                              <label class="form-check-label" for="concernnone">None of the above</label>
+                                          </div>
+                                      
+                                        </div>
+		  
+		  
+		  
+		  
+										  <div class="form-step-controls pb-4 pr-2">
+                                       		<h4>Please select any that apply.</h4>
+											 
+                                              <div class="form-radio form-check-inline">
+                                              <input class="form-check-input" type="checkbox" name="extraconstruct" id="extraconstruct" value="0" >
+                                              <label class="form-check-label" for="extraconstruct">My home is under construction</label>
+                                          </div>
+                                          <div class="form-radio form-check-inline">
+                                              <input class="form-check-input" type="checkbox" name="extrasale" id="extrasale" value="0">
+                                              <label class="form-check-label" for="extrasale">My home is currently for sale</label>
+                                          </div>
+											<div class="form-radio form-check-inline">
+                                              <input class="form-check-input" type="checkbox" name="extrahistorix" id="extrahistorix" value="0">
+                                              <label class="form-check-label" for="extrahistorix">My home is in a historic district </label>
+                                          </div>
+											<div class="form-radio form-check-inline">
+                                              <input class="form-check-input" type="checkbox" name="extrasunroom" id="extrasunroom" value="0">
+                                              <label class="form-check-label" for="extrasunroom">Windows in sunroom or porch</label>
+                                          </div>
+											
+											
+										<div class="form-radio form-check-inline">
+                                              <input class="form-check-input" type="checkbox" name="extrarentcomm" id="extrarentcomm" value="0">
+                                              <label class="form-check-label" for="extrarentcomm">A rental or commercial property</label>
+                                          </div>
+											  
+											  <div class="form-radio form-check-inline">
+                                              <input class="form-check-input" type="checkbox" name="extranoneabove" id="extranoneabove" value="0">
+                                              <label class="form-check-label" for="extranoneabove">None of the Above</label>
+                                          </div>
+											  
+											  
+											  <hr>
+											   
+											   <div class="form-step-controls pb-4 pt-3">
+                                       			<h4>Please select a date and time that all homeowners available for your appointment:</h4>
+												   
+												 
+												<!--DATEPICKER-->   
+												   <div class="date-picker-select">
+													<div id="picker"></div>
+													<input type="hidden" id="result" value="" />
+												   </div>
+												   
+												    <button type="button" class="btn-align btn-primary" value="Schedule Now">Schedule Now</button>
+                                      
+                                     	   </div>
+											  
+											  
+											  
+		  
+                                        </div>
+		  
+		  
+
+              <!--<button type="button" name="previous" class="previous btn-align btn-outline" value="Back">Back</button>-->
+            
+
+      </fieldset> 	  
+		  
+
+      </form>
+
+  </div>
+  </div>
+</section>
+<!--END FORM-->
+</div>	
+	
+	
+<footer>		
+<section id="footer">
+ <!-- START FOOTER SECTION -->
+   
+
+            <div class="container">
+				<div class="row">
+                <div class="col-12 mb-3 mt-5 text-center">
+
+                    <img src="images/logo-footer.png" alt="logos" width="200">
+
+                </div>
+				</div>	
+				
+				<div class="row">
+				<div class="col-12 text-center">
+                <p>1DETAILS OF OFFER: This offer expires 6/30/2022. Not valid with other offers or prior purchases Buy one (1) window or entry/patio door, get one (1) window or entry/patio door 40% off, and 12 months $0 money down, $0 monthly payments, no interest when you purchase four (4) or more windows or entry/patio doors between 02/25/2022 and 06/30/2022. 40% off windows and entry/patio doors are less than or equal to lowest cost window or entry/patio door in the order. Additional $100 off your project, taken after initial discount(s), when you purchase by 04/30/2022. Subject to credit approval. Interest is billed during the promotional period, but all interest is waived if the purchase amount is paid before the expiration of the promotional period. Financing for GreenSky® consumer loan programs is provided by federally insured, federal and state chartered financial institutions without regard to age, race, color, religion, national origin, gender, or familial status. Savings comparison based on purchase of a single unit at list price. Available at participating locations and offer applies throughout the service area. See your local Renewal by Andersen location for details. All license numbers are available upon request. Some Renewal by Andersen locations are independently owned and operated. “ENERGY STAR” is a registered trademark of the U.S. Environmental Protection Agency. “Renewal by Andersen” and all other marks where denoted are trademarks of Andersen Corporation. &copy; 2022 Andersen Corporation. All rights reserved. RBA12222.
+
+
+                <p>If you believe you’ve reached this page in error or would like to opt out of future correspondence, please <a href="http://emailcompliancemanager.com/rba/?1=1" id="UnsubLink" target="_blank" class="lnkunsub">contact us</a>.</p>
+				
+
+			  <p>&copy;<script type="text/javascript">    document.write(new Date().getFullYear());</script>
+
+				 <span id="FooterDomain">Low-E-ReplacementWindows.com</span>  All rights reserved. |
+
+					   <a href="PrivacyLowE.html" id="PrivacyPolicy" data-fancybox-type="iframe" class="fancybox">Privacy Policy</a> | <a href="TermsofUseLowE.html" id="Terms_Conds" data-fancybox-type="iframe" class="fancybox">Terms of Use</a> | <a href="Ca-Privacy.html" id="CaPrivacy" data-fancybox-type="iframe" class="fancybox">Privacy Notice for CA Residents</a> | <a href="Ca-Privacy.html#DoNotSell" id="DoNotSell" data-fancybox-type="iframe" class="">Do Not Sell My Personal Information</a> | <a href="http://pub.s7.exacttarget.com/hxafk4bhe5c?email=&storeId=&optoutsource=ExactCustomer&ctkwd=&ecadid=" id="Unsub">Unsubscribe</a></p>
+
+                  </div>
+				</div>
+		
+	</div>
+      	
+</section>		
+  </footer>
+	
+<!-- partial -->
+
+
+</div>	
+</body>
+</html>
