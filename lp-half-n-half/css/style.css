@@ -130,9 +130,22 @@ label {
   color:#fff;
 }
 
+@media screen and (max-width: 767px) {
+  .wizard-content-bg {
+    height:auto;
+  }
+}
+
 .wizard-content-left {
   padding-top:30%;
 }
+@media screen and (max-width: 767px) {
+  .wizard-content-left {
+    padding-top:5%;
+  }
+}
+
+
 .wizard-content-left h1 {
   color: #ffffff;
   font-weight: 600;
@@ -380,11 +393,7 @@ sup {
     opacity: 0.0;
   }
 }
-@media screen and (max-width: 767px) {
-  .wizard-content-left {
-    height: auto;
-  }
-}
+
 
 
 
