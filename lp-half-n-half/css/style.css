@@ -158,14 +158,12 @@ sup {
   margin:0 auto;
 }
 
-@media screen and (max-width: 767px) {
-  .wizard-content-left h1 {
-
-  }
-}
-
 .form-step-nav  {
   margin-top:20px;
+}
+
+.formArea {
+  padding:0 20px 0 20px;
 }
 
 .form-wizard {
