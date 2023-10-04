@@ -120,13 +120,18 @@ label {
   }
 
 
-.wizard-content-left {
+.wizard-content-bg {
   background-blend-mode: darken;
   background-color: rgba(0, 0, 0, .4);
   background-image: url("../img/wizard-bg.jpg");
   background-position: top center;
   background-size: cover;
   height: 100vh;
+  color:#fff;
+}
+
+.wizard-content-left {
+  padding-top:30%;
 }
 .wizard-content-left h1 {
   color: #ffffff;
