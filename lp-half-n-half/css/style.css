@@ -68,6 +68,16 @@ p {
 .fineCopy { font-size: var(--textSize6); line-height: 120%;}
 .letterSpace1 { letter-spacing: 5px;}
 
+#header_disc {
+    background-color: #4c4c4c;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,.2),0 4px 4px 0 rgba(0,0,0,.19);
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    color: #fff;
+    font-family: Arial,Helvetica,sans-serif;
+    width: 100%;
+    margin-bottom: 20px
+}
 
 /*** FORMS ***/
 label {
@@ -139,6 +149,7 @@ label {
 @media screen and (max-width: 767px) {
   .wizard-content-bg {
     height:auto;
+     
   }
 }
 
