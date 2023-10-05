@@ -74,16 +74,13 @@ label {
     display: block;
   }
   input::placeholder {
-    color: #dfdfdf;
+    color: #d1d1cc!important;
   }
   input:focus::placeholder {
     color: transparent;
   }
   label {
     display: block;
-  }
-  input::placeholder {
-    color: #dfdfdf;
   }
   input:focus::placeholder {
     color: transparent;
