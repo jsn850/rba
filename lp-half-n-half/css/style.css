@@ -93,6 +93,7 @@ label {
     position:relative;
     padding:0px 10px 0 20px;
     pointer-events:none;
+    font-weight:500;
   }
   .ifta-field {
     border:0;
