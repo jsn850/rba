@@ -73,24 +73,24 @@ sup {
 .bodyMax {max-width: 700px; margin:0 auto;}
 #leadform {
 	text-align: center;
-	min-height:500px;	padding-bottom:200px;
+	min-height:500px; 
+	max-width:500px;
+	padding-bottom:200px;
 }
 
-#blockForm {max-width:700px; margin:0 auto;}
+#blockForm {max-width:500px; margin:0 auto;}
 
-.btn-align  {max-width:300px; display:inline-block; width:35%!important;}
+.btn-align {display:inline-block;  }
+.btn-align-small {display:inline-block; }
 
 #leadform fieldset {
-
 	border: 0 none;
 	border-radius: 3px;
-
 	box-sizing: border-box;
-	width: 95%;
+	width:90%;
 	/*stacking fieldsets above each other*/
 	position: absolute;
 }
-
 
 /*Hide all except first fieldset*/
 #leadform fieldset:not(:first-of-type) {
@@ -100,8 +100,6 @@ sup {
 #leadform input, #leadform button {
 	border: 1px solid #ccc;
 	border-radius: 3px;
-	margin-bottom: 10px;
-	width: 100%;
 	box-sizing: border-box;
 	font-family: montserrat;
 	color: #2C3E50;
@@ -201,7 +199,7 @@ label {
 }
 
 .form-step-controls {
-	max-width: 530px;
+	max-width: 500px;
     margin: 0 auto;
 }
 
@@ -258,7 +256,7 @@ button.btn-outline:hover { border-color: #777!important;
 }
 
 #leadform .btn-primary {
-	width: 100%;
+	width: 80%;
 	background: var(--rba-green);
 	font-weight: bold;
 	color: white;
@@ -266,11 +264,16 @@ button.btn-outline:hover { border-color: #777!important;
 	border-radius: 1px;
 	cursor: pointer;
 	padding: 10px 5px;
-	margin: 10px 0 0 0;
 }
 #leadform .btn-primary:hover, #leadform .btn-primary:focus {
 	box-shadow: 0 0 0 2px white, 0 0 0 3px var(--rba-green);
 }
+
+#leadform .btn-outline {
+	width: 13%;
+}
+
+
 /*headings*/
 
 .form-step-title {padding:0 0 20px 0;}
