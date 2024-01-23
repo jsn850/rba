@@ -15,8 +15,9 @@
 <section class="bandOffer">
 	<div class="container">
 		<div class="row">
-			<div class="col-12 text-center" style="padding: 0px;">
-					<h1 class="title1">Buy One, Get One 40% Off, Plus $200 Off Your Order<sup>1</sup></h1>
+			<div class="col-12 text-center pt-2">
+				<p class="fineCopy">Renewal by Andersen is not affiliated with any government grant or free window programs, all projects come at a cost to the consumer</p>
+					<h1 class="title2 fw-bold">Buy One, Get One 40% Off, Plus $200 Off Your Order<sup>1</sup></h1>
 					<p class="lp-disclaimer">minimum purchase required</p>
 			</div>
 		</div>
@@ -38,7 +39,7 @@
 
 					<form action="" method="post" role="form">
 						<div class="form-wizard-header">
-							<ul class="list-unstyled form-wizard-steps clearfix">
+							<ul class="form-wizard-steps clearfix">
 								<li class="active"><span>1</span></li>
 								<li><span>2</span></li>
 								<li><span>3</span></li>
@@ -47,16 +48,13 @@
 							</ul>
 						</div>
 						<fieldset class="wizard-fieldset show">
+
 							<div class="text-center">
 							<img src="img/hero-window.png" alt="window" width="100%">
 							</div>
 							
-							<!--<div class="form-group">
-								<input type="text" class="form-control wizard-required" id="zcode">
-								<label for="zcode" class="wizard-form-text-label">Zip Code*</label>
-								<div class="wizard-form-error"></div>
-							</div>-->
-							<div class="startForm form-group clearfix form-step-nav row justify-content-center">
+							
+							<div class="startForm form-group form-step-nav row justify-content-center">
 								<a href="javascript:;" class="btn btnOrange text-uppercase w-100">Get Your Free Quote</a>
 							</div>
 						</fieldset>	
@@ -64,7 +62,15 @@
 
 
 						<fieldset class="wizard-fieldset">
-							<h3 class="title">What replacement services are you looking for?</h3>
+							<h3 class="title">What zip code is your home located in?</h3>
+
+							<div class="form-group pb-3">
+								<label for="zCode" class="small ifta-label">Zip Code*</label>
+								<input type="text" class="ifta-field form-control wizard-required" id="zCode" placeholder="ie:10026">
+								<div class="wizard-form-error"></div>
+							</div>
+
+<!--FORM QUESTIONS
 							<div class="form-group">
 								<div class="form-radio form-check-inline wizard-form-radio col-12">
 									<label class="form-check-label" for="replacementType1">
@@ -90,15 +96,47 @@
 								<div class="wizard-form-error"></div>
 								<span class="wizard-password-eye"><i class="far fa-eye"></i></span>
 							</div>
-							<div class="form-group clearfix form-step-nav">
-								<a href="javascript:;" class="btn btnPrev float-left">Previous</a>
-								<a href="javascript:;" class="btn btnOrange float-right">Next</a>
+						-->							
+							<div class="form-group form-step-nav row">
+								<div class="col-3">
+								<a href="javascript:;" class="btn btnPrev">Previous</a>
+								</div>
+								<div class="col-9">
+								<a href="javascript:;" class="btn btnOrange w-100">Next</a>
+								</div>
 							</div>
+						
 						</fieldset>	
 
 						<fieldset class="wizard-fieldset">
-							<h3 class="title">How old are your current windows and doors?</h3>
+							<h3 class="title">Let us know how to contact you</h3>
+						
+								
 							<div class="form-group">
+								<label class="small ifta-label" for="txtFirstName">First Name</label>
+                				<input type="text" class="ifta-field form-control wizard-required" id="txtFirstName" placeholder="John" />
+								<div class="wizard-form-error"></div>
+							</div>
+							<div class="form-group">
+								<label class="small ifta-label" for="txtLastName">Last Name</label>
+                				<input type="text" class="ifta-field form-control wizard-required" id="txtLastName" placeholder="Smith" />
+								<div class="wizard-form-error"></div>
+							</div>
+							<div class="form-group">
+								<label class="small ifta-label" for="txtEmail">Email</label>
+                				<input type="text" class="ifta-field form-control wizard-required" id="txtEmail" placeholder="Johnsmith@email.com" />
+
+								<div class="wizard-form-error"></div>
+							</div>
+							<div class="form-group">
+								<label class="small ifta-label " for="txtPhone">Phone Number</label>
+								<input type="text" class="ifta-field form-control wizard-required phoneFormat" id="txtPhone" placeholder="123-456-7890" maxlength="14"  />
+								<div class="wizard-form-error"></div>
+							</div>
+
+
+
+<!--FORM QUESTIONS
 								<div class="form-radio form-check-inline wizard-form-radio col-12">
 									<label class="form-check-label" for="windowAge1">
 									<input class="form-check-input" type="radio" name="windowAge" id="windowAge1" value="0">
@@ -130,16 +168,45 @@
 								</div>
 								<div class="wizard-form-error"></div>
 							</div>
-							<div class="form-group clearfix form-step-nav">
-								<a href="javascript:;" class="btn btnPrev float-left">Previous</a>
-								<a href="javascript:;" class="btn btnOrange float-right">Next</a>
+-->
+
+
+
+							<div class="form-group clearfix form-step-nav row">
+								<div class="col-3">
+								<a href="javascript:;" class="btn btnPrev">Previous</a>
+								</div>
+								<div class="col-9">
+								<a href="javascript:;" class="btn btnOrange w-100">Next</a>
+								</div>
 							</div>
 						</fieldset>	
 
 
 						<fieldset class="wizard-fieldset">
-							<h3 class="title">What problems are you experiencing with your current windows or doors?
-								<span class="title5">(Select all that apply.)</span></h3>
+							<h3 class="title">What is your street address?</h3>
+
+								<div class="form-group">
+									<label class="small ifta-label" for="txtFirstName">Street Address</label>
+									<input type="text" class="ifta-field form-control wizard-required" id="txtFirstName" placeholder="123 Jay Street" />
+									<div class="wizard-form-error"></div>
+								</div>
+
+								<div class="form-group clearfix form-step-nav row">
+									
+									<div class="col-3">
+									<a href="javascript:;" class="btn btnPrev float-left ">Previous</a>
+									</div>
+									<div class="col-9">
+									<a href="#thank-you" class="btn btnOrange float-right w-100">Get Started Now</a>
+									</div>
+
+									<p class="fineCopy pt-3">By pressing the Get Started Now button above, you acknowledge that you'd like to learn more about Renewal by Andersen windows. You also authorize Renewal by Andersen or any third-party organization to call, SMS and/or email you at the phone number(s)/email address(es) above, including your wireless number if provided, with automated technology in order to schedule a convenient day and time. If you live in a territory where Renewal by Andersen is not currently working with qualitywindowsdirect.com or that is not serviced by Renewal by Andersen, we will send your information to up to four home improvement companies that can help with your project. You acknowledge that you are submitting this form so that you can be contacted via email, phone or text message and informed about products, services and sales, as well as third-party offers including, without limitation, from our affiliates and/or unrelated third parties. You understand that you do not need to submit this form to schedule an in-home price quote. If you do not wish to provide us with this consent, you may contact us directly at (516) 253-6644</p>
+
+
+								</div>
+
+<!--FORM QUESTIONS
 							<div class="form-group">
 								<div class="form-radio form-check-inline wizard-form-radio col-12">
 									<label class="form-check-label" for="windowProblems1">
@@ -180,44 +247,10 @@
 								</div>
 								<div class="wizard-form-error"></div>
 							</div>
-							<div class="form-group clearfix form-step-nav">
-								<a href="javascript:;" class="btn btnPrev float-left">Previous</a>
-								<a href="javascript:;" class="btn btnOrange float-right">Next</a>
-							</div>
+						-->
+						
 						</fieldset>	
 
-
-						<fieldset class="wizard-fieldset">
-							<h3 class="title">Claim your offer</h3>
-							<div class="form-group">
-								<label class="small ifta-label" for="txtFirstName">First Name</label>
-                				<input type="text" class="ifta-field form-control wizard-required" id="txtFirstName" placeholder="John" />
-								<div class="wizard-form-error"></div>
-							</div>
-							<div class="form-group">
-								<label class="small ifta-label" for="txtLastName">Last Name</label>
-                				<input type="text" class="ifta-field form-control wizard-required" id="txtLastName" placeholder="Smith" />
-								<div class="wizard-form-error"></div>
-							</div>
-							<div class="form-group">
-								<label class="small ifta-label" for="txtEmail">Email</label>
-                				<input type="text" class="ifta-field form-control wizard-required" id="txtEmail" placeholder="Johnsmith@email.com" />
-
-								<div class="wizard-form-error"></div>
-							</div>
-							<div class="form-group">
-								<label class="small ifta-label " for="txtPhone">Phone Number</label>
-								<input type="text" class="ifta-field form-control wizard-required phoneFormat" id="txtPhone" placeholder="123-456-7890" maxlength="14"  />
-								<div class="wizard-form-error"></div>
-							</div>
-					
-							
-
-							<div class="form-group clearfix form-step-nav">
-								<a href="javascript:;" class="btn btnPrev float-left ">Previous</a>
-								<a href="#thank-you" class="btn btnOrange form-wizard-submit float-right">Submit</a>
-							</div>
-						</fieldset>	
 
 
 
@@ -233,12 +266,34 @@
 			</section>
 
 
-<!--DISPLAY WINDOW-->
 <section>
-	<div class="container-fluid">
+<div class="container py-5">
+	<div class="row justify-content-center">
+		<div class="col-12 text-center">
+			<p class="title2" style="letter-spacing: 5px;">Payment Options Available</p>
+		</div>
+	</div>
+</div>
+
+</section>
+
+<hr>
+
+<!--DISPLAY WINDOW-->
+<section id="windowSwitcher" class="pt-5">
+	<div class="container-fluid p-0">
 		<div class="row">
 			<div class="col-12">
-				<img src="img/display-windows.jpg" alt="windows" width="100%">
+				<p class="title2 text-center fw-bold">Click on the windows below to change the room appearance.</p>
+				<div class="row justify-content-center">
+					<div class="col-md-2 col-6 text-center">
+						<button onclick=blackWindowView();><img src="img/circle-blk-window.png" alt="Black Window" width="100%"></button>
+					</div>
+					<div class="col-md-2 col-6 text-center">
+						<button onclick=whiteWindowView();><img src="img/circle-wht-window.png" alt="White Window" width="100%"></button>
+					</div>
+				</div>
+				<img src="img/display-windows-white.jpg" alt="windows" width="100%" id="windowColor">
 			</div>
 		</div>
 	</div>
@@ -261,7 +316,7 @@
 				<div class="col-12">
 
 				<p class="fineCopy">
-					1 DETAILS OF OFFER: Offer expires 12/31/2023. Not valid with other offers or prior purchases. Buy one (1) window or entry/patio door, get one (1) window or entry/patio door 40% off, when you purchase four (4) or more windows or entry/patio doors between 10/1/2023 and 12/31/2023. 40% off windows and entry/patio doors are less than or equal to lowest cost window or entry/patio door in the order. Additional $200 off your order, with minimum purchase of four (4), taken after initial discount(s), when you purchase by 12/31/2023.  12 months $0 money down, $0 monthly payments, no interest when you purchase by 12/31/2023. Interest is billed during the promotional period, but all interest is waived if the purchase amount is paid before the expiration of the promotional period. Subject to credit approval. Financing for GreenSky® consumer loan programs is provided by federally insured, federal and state chartered financial institutions without regard to age, race, color, religion, national origin, gender, or familial status. Savings comparison based on purchase of a single unit at list price. Available at participating locations and offer applies throughout the service area. See your local Renewal by Andersen location for details. MHIC #121441. VA License #2705155684. DC License #420215000125. FL License #CGC1527613. Los Angeles and Orange County License #990416. License MN:BC130983/WI:266951. Excludes MN insurance work per MSA 325E.66. PA License#170810. License #RCE-50303. CA License CLSB #1050316. Central CA License #1096271. OR License #198571. WA License #RENEWAP877BM. WA License #RENEWAW856K6. All other license numbers are available upon request. Some Renewal by Andersen locations are independently owned and operated. “ENERGY STAR” is a registered trademark of the U.S. Environmental Protection Agency. “Renewal by Andersen” and all other marks where denoted are trademarks of Andersen Corporation. ©2023 Andersen Corporation. All rights reserved. RBA 12222
+					1 DETAILS OF OFFER: Offer expires 12/31/2024. Not valid with other offers or prior purchases. Buy one (1) window or entry/patio door, get one (1) window or entry/patio door 40% off, when you purchase four (4) or more windows or entry/patio doors between 10/1/2024 and 12/31/2024. 40% off windows and entry/patio doors are less than or equal to lowest cost window or entry/patio door in the order. Additional $200 off your order, with minimum purchase of four (4), taken after initial discount(s), when you purchase by 12/31/2024.  12 months $0 money down, $0 monthly payments, no interest when you purchase by 12/31/2024. Interest is billed during the promotional period, but all interest is waived if the purchase amount is paid before the expiration of the promotional period. Subject to credit approval. Financing for GreenSky® consumer loan programs is provided by federally insured, federal and state chartered financial institutions without regard to age, race, color, religion, national origin, gender, or familial status. Savings comparison based on purchase of a single unit at list price. Available at participating locations and offer applies throughout the service area. See your local Renewal by Andersen location for details. MHIC #121441. VA License #2705155684. DC License #420215000125. FL License #CGC1527613. Los Angeles and Orange County License #990416. License MN:BC130983/WI:266951. Excludes MN insurance work per MSA 325E.66. PA License#170810. License #RCE-50303. CA License CLSB #1050316. Central CA License #1096271. OR License #198571. WA License #RENEWAP877BM. WA License #RENEWAW856K6. All other license numbers are available upon request. Some Renewal by Andersen locations are independently owned and operated. “ENERGY STAR” is a registered trademark of the U.S. Environmental Protection Agency. “Renewal by Andersen” and all other marks where denoted are trademarks of Andersen Corporation. &copy;2024 Andersen Corporation. All rights reserved. RBA 12222
 				</p>
 				
 					<p class="fineCopy"> &copy; <script type="text/javascript">    document.write(new Date().getFullYear());</script>
@@ -329,6 +384,19 @@
 		return returnValue;
 	}
 	</script>
+
+
+<script>
+function blackWindowView(){
+    document.getElementById('windowColor')
+    .src="img/display-windows.jpg";
+}
+     
+function whiteWindowView(){
+    document.getElementById('windowColor')
+    .src="img/display-windows-white.jpg";
+}
+</script>
 
 </body>
 </html>

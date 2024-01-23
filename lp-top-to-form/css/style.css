@@ -22,17 +22,7 @@
   --textSize7: 0.75rem; /*12px*/
 }
 
-@media screen and (max-width: 767px) {
-  :root,
-  [data-bs-theme=light] {
-    --textSize1: 2.222rem; /*40px*/
-    --textSize2: 1.556rem; /*28px*/
-    --textSize3: 1rem; /*18px*/
-    --textSize4: 0.889rem; /*16px*/
-    --textSize5: 0.778; /*14px*/
-    --textSize6: 0.556rem; /*10px*/
-}
-}
+
 
 
 @font-face {
@@ -200,7 +190,8 @@ sup {
 }
 
 .form-step-nav  {
-  margin:20px 0 60px 0;
+  margin-top:20px;
+  margin-bottom:60px;
   text-align: center;
 }
 
@@ -308,10 +299,11 @@ sup {
   display: none;
   background-color: #d70b0b;
   position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  height: 2px;
+  /* left: 0; */
+  /* right: 0; */
+  /* bottom: 0; */
+  top: 53px;
+  height: 3px;
   width: 100%;
 }
 .form-wizard .form-wizard-previous-btn {
@@ -350,6 +342,7 @@ sup {
   width: 19%;
   float: left;
   position: relative;
+  list-style: none;
 }
 .form-wizard .form-wizard-steps li::after {
   background-color: #f3f3f3;
@@ -372,6 +365,7 @@ sup {
   line-height: 40px;
   position: relative;
   text-align: center;
+  font-weight:bold;
   width: 40px;
   z-index: 1;
 }
@@ -381,6 +375,7 @@ sup {
 .form-wizard .form-wizard-steps li.active span, .form-wizard .form-wizard-steps li.activated span {
   background-color: #000;
   color: #ffffff;
+  font-weight:bold;
 }
 .form-wizard .form-wizard-steps li.active::after, .form-wizard .form-wizard-steps li.activated::after {
   background-color: #000;
@@ -457,10 +452,10 @@ sup {
 }
 
 .btnOrange {
-  background: #db922d;
+  background: #e48108;
   font-size:1.5rem;
   font-weight: bold;
-  color: white;
+  color: #000;
   border: 0 none;
   border-radius: 1px;
   cursor: pointer;
@@ -470,17 +465,17 @@ sup {
   text-align: center;
 }
 .btnOrange:hover {
-  background: #f7a532;
+  background: #ff9009;
   text-decoration: none;
 }
 
 .btnOrange:active {
-  background: #db922d;
+  background: #ff9009;
   text-decoration: none;
 }
 
 .btnOrange:focus {
-  background: #db922d;
+  background: #ff9009;
   text-decoration: none;
 }
 
@@ -489,6 +484,17 @@ sup {
   position:fixed;
   bottom:0;
 }
+
+#windowSwitcher button {
+ border:none;
+ background-color:transparent;
+ margin:0 0 20px 0;
+}
+
+#windowSwitcher button:hover {
+  border:1px solid #ccc;
+  background-color:transparent;
+ }
 
 
 
@@ -509,10 +515,16 @@ sup {
 
 
 
-
 #footer {
   padding:20px 20px 100px 20px;
-
   background-color:#000;
   color:#fff;
+}
+
+#footer p {
+  font-size:11px;
+}
+
+#footer a {
+  color:#ccc;
 }
