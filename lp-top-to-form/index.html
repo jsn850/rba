@@ -278,13 +278,16 @@
 			<img src="img/display-windows-white.jpg" alt="windows" width="100%" id="windowColor">
 
 			<div class="col-12">
-				<p class="title3 text-center pt-3">Click to see this style above.</p>
+				<p class="title3 text-center pt-3">Click a window to see this style above or start a quote to see more styles and colors.</p>
 				<div class="row justify-content-center">
-					<div class="col-md-2 col-6 text-center">
-						<button onclick=blackWindowView();><img src="img/circle-blk-window.png" alt="Black Window" width="100%"></button>
+					<div class="col-md-2 col-4 text-center">
+						<a href="#windowSwitcher"><button onclick=blackWindowView();><img src="img/circle-blk-window.png" alt="Black Window" width="100%"></button></a>
 					</div>
-					<div class="col-md-2 col-6 text-center">
-						<button onclick=whiteWindowView();><img src="img/circle-wht-window.png" alt="White Window" width="100%"></button>
+					<div class="col-md-2 col-4 text-center">
+						<a href="#windowSwitcher"><button onclick=whiteWindowView();><img src="img/circle-wht-window.png" alt="White Window" width="100%"></button></a>
+					</div>
+					<div class="col-md-2 col-4 text-center">
+						<a href="#windowSwitcher"><button onclick=brownWindowView();><img src="img/circle-brown-window.png" alt="Brown Window" width="100%"></button></a>
 					</div>
 				</div>
 				
@@ -313,7 +316,12 @@
 <section class="testimonial-section">
 	<div class="container">
 		<div class="row justify-content-center">
+
 		<div class="col-12 col-md-8">
+
+			<div class="text-center pb-3">
+			<img src="img/stars.png" alt="5 stars" width="200">
+			</div>
 
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 	<!--<ol class="carousel-indicators">
@@ -470,6 +478,11 @@ function blackWindowView(){
 function whiteWindowView(){
     document.getElementById('windowColor')
     .src="img/display-windows-white.jpg";
+}
+
+function brownWindowView(){
+    document.getElementById('windowColor')
+    .src="img/display-windows-brown-grill.jpg";
 }
 </script>
 
