@@ -335,6 +335,12 @@ sup {
   transition: 0.2s linear all;
   font-size: 12px;
 }
+
+.form-wizard-header {
+  padding:0 0 60px 0;
+
+
+}
 .form-wizard .form-wizard-steps {
   margin: 30px 0;
 }
