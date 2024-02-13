@@ -23,8 +23,6 @@
 }
 
 
-
-
 @font-face {
     font-family: itcfranklingothic;
     src:url("../fonts/itcfranklingothicstd-book.otf");
@@ -50,12 +48,12 @@ p {
   font-family: 'Lato', sans-serif;
 }
 
-.title1 { font-size: var(--textSize1); line-height: 120%;}
-.title2 { font-size: var(--textSize2); line-height: 120%;}
-.title3 { font-size: var(--textSize3); line-height: 120%;}
-.title4 { font-size: var(--textSize4); line-height: 120%;}
-.title5 { font-size: var(--textSize5); line-height: 120%;}
-.title6 { font-size: var(--textSize6); line-height: 120%;}
+.title1 { font-size: var(--textSize1); line-height: 120%; padding-bottom:20px;}
+.title2 { font-size: var(--textSize2); line-height: 120%; padding-bottom:20px;}
+.title3 { font-size: var(--textSize3); line-height: 120%; padding-bottom:20px;}
+.title4 { font-size: var(--textSize4); line-height: 120%; padding-bottom:20px;}
+.title5 { font-size: var(--textSize5); line-height: 120%; padding-bottom:20px;}
+.title6 { font-size: var(--textSize6); line-height: 120%; padding-bottom:20px;}
 .fineCopy { font-size: var(--textSize6); line-height: 120%;}
 .letterSpace1 { letter-spacing: 5px;}
 
@@ -346,7 +344,7 @@ sup {
   margin-top: 30px;
   margin-bottom:30px;
   width:100%;
-  margin-left:15%;
+  margin-left:18%;
 
 }
 .form-wizard .form-wizard-steps li {
