@@ -1,0 +1,10 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*Solar Power Experts*/
+.btnSPE {background-color:#f15f18; color:#fff;}
+.btnSPE:hover {background-color:orangered; color:#fff;}
+
+/*BCI*/
+.btnBCI {background-color:#aa0f0f; color:#fff;}
+.btnBCI:hover {background-color:red; color:#fff;}
