@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">	
+  <title>RBA 40</title>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400" rel="stylesheet">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<section class="wizard-section">
+		<div class="row no-gutters d-flex align-items-center justify-content-center">
+				<div class="form-wizard">
+
+					<div class="wizard-content-offer text-center mb-3">
+						<img src="logo-rba.png" alt="logo" width="100%" class="logo d-none d-md-block">
+					</div>
+
+					<form action="" method="post" role="form">
+						<div class="form-wizard-header">
+							
+							<div class="col-12 wizard-content-offer">
+								<img src="logo-rba-mob.png" alt="logo" width="100%" class="logo d-md-none pb-3">
+								<p><strong>FREE</strong> No-Obligation Window Replacement Quote</p>
+								<h1>Buy One, Get One 40% Off<sup>1</sup></h1>
+								<h2>Plus, $200 Off Your Order <sup>1</sup></h2>
+								<p class="lp-disclaimer">Minimum purchase required</p></a>
+								</div>
+
+
+							<ul class="list-unstyled form-wizard-steps clearfix">
+								<li class="active"><span>1</span></li>
+								<li><span>2</span></li>
+								<li><span>3</span></li>
+								<li><span>4</span></li>
+							</ul>
+						</div>
+						<fieldset class="wizard-fieldset show">
+							<h3 class="title">Tell us where your project is located.</h3>
+							
+							<div class="form-group">
+								<input type="text" class="form-control wizard-required" id="zcode">
+								<label for="zcode" class="wizard-form-text-label">Zip Code*</label>
+								<div class="wizard-form-error"></div>
+							</div>
+
+							<div class="form-group clearfix form-step-nav">
+								<a href="javascript:;" class="btn-primary w-100">Next</a>
+							</div>
+
+							<div class="helper">
+								<img src="rba-assistant.png" alt="RBA Assistant">
+								<span>This will help us narrow down results.</span>
+							</div>
+						</fieldset>	
+
+
+
+						<fieldset class="wizard-fieldset">
+							<h3 class="title">Tell us who we are speaking with?</h3>
+							<div class="form-group">
+								<input type="text" class="form-control wizard-required" id="fname">
+								<label for="fname" class="wizard-form-text-label">First Name*</label>
+								<div class="wizard-form-error"></div>
+							</div>
+							<div class="form-group">
+								<input type="text" class="form-control wizard-required" id="lname">
+								<label for="lname" class="wizard-form-text-label">Last Name*</label>
+								<div class="wizard-form-error"></div>
+							</div>
+			
+
+							<div class="form-group clearfix form-step-nav row">
+								<div class="col-3">
+								<a href="javascript:;" class="btn-prev w-100 text-center">&larr;</a>
+								</div>
+								<div class="col-9">
+								<a href="javascript:;" class="btn-primary w-100">Next</a>
+								</div>
+							</div>
+					
+							
+							<div class="helper"><img src="rba-assistant.png" alt="RBA Assistant"><span>Super! Now we have a point of contact</span></div>
+						</fieldset>	
+
+						<fieldset class="wizard-fieldset">
+							<h3 class="title">Let us know how we can reach you?</h3>
+					
+							<div class="form-group">
+								<input type="email" class="form-control wizard-required" id="email">
+								<label for="email" class="wizard-form-text-label">Email*</label>
+								<div class="wizard-form-error"></div>
+							</div>
+							<div class="form-group">
+								<input type="tel" class="form-control wizard-required" id="phone">
+								<label for="phone" class="wizard-form-text-label">Phone*</label>
+								<div class="wizard-form-error"></div>
+							</div>
+					
+							<div class="form-group clearfix form-step-nav row">
+								<div class="col-3">
+								<a href="javascript:;" class="btn-prev w-100 text-center">&larr;</a>
+								</div>
+								<div class="col-9">
+								<a href="javascript:;" class="btn-primary w-100">Next</a>
+								</div>
+							</div>
+
+							<div class="helper"><img src="rba-assistant.png" alt="RBA Assistant"><span>Great! Tell us where we can send your quote.</span></div>
+						</fieldset>	
+
+
+						<fieldset class="wizard-fieldset">
+							<h3 class="title">What is your home address?</h3>
+						
+							<div class="form-group">
+								<input name="LeadForm1$txtStreet" type="text" class="form-control wizard-required" id="LeadForm1_txtStreet">
+								<label for="LeadForm1_txtStreet" class="wizard-form-text-label">Street Address*</label>
+								<div class="wizard-form-error"></div>
+							</div>
+							<span id="LeadForm1_RequiredFieldValidator4" class="form-error" style="display:none;">Street is required.</span>
+						
+
+								<div class="form-group clearfix form-step-nav row">
+									
+									<div class="col-12">
+										<input type="button" name="LeadForm1$btnSubmit" value="Get Started Now"
+										onclick="disableBtnAddresscheck(this); gtag('event','click',{'event_category':'Wiz','event_label':'WizAddress-Submit'}); gtag('event', 'address_entered');WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;LeadForm1$btnSubmit&quot;, &quot;&quot;, true, &quot;Group4&quot;, &quot;&quot;, false, true))"
+										id="LeadForm1_btnSubmit" class="btn-primary w-100">
+									</div>
+
+									<div class="col-12 mt-3">
+										<a href="javascript:;" class="btn-prev w-100 text-center">&larr;</a>
+										</div>
+								</div>
+							
+							<!--START TCPA-->
+							<div class="tcpa">
+								<p>By pressing the button above, you acknowledge that you'd like to learn more about Renewal by Andersen windows. You also authorize Renewal by Andersen or any third-party organization to call, SMS and/or email you at the phone number(s)/email address(es) above, including your wireless number if provided, with automated technology in order to schedule a convenient day and time. If you live in a territory where Renewal by Andersen is not currently working with qualitywindowsdirect.com or that is not serviced by Renewal by Andersen, we will send your information to up to four home improvement companies that can help with your project. You acknowledge that you are submitting this form so that you can be contacted via email, phone or text message and informed about products, services and sales, as well as third-party offers including, without limitation, from our affiliates and/or unrelated third parties. You understand that you do not need to submit this form to schedule an in-home price quote. If you do not wish to provide us with this consent, you may contact us directly at (516) 253-6644</p>
+							</div>
+<!--END TCPA-->
+						
+						
+							<div class="helper"><img src="rba-assistant.png" alt="RBA Assistant"><span>Almost Done! Tell us your Street
+									Address.</span></div>
+						
+						
+						
+						</fieldset>
+						
+						
+					</form>
+				</div>
+		</div>
+	</section>
+
+	<!--FOOTER-->			
+	<section id="footer">
+
+		<!--COMPLIANCE-->
+		<div class="CompliLink">
+			<p class="small text-center">If you believe you've reached this page in error or would like to opt out of future correspondence, please <a href="http://emailcompliancemanager.com/rba/?1=1" id="UnsubLink" target="_blank" class="lnkunsub">contact us</a>.</p>
+		</div>
+
+		<div class="col-12 mb-3 mt-5 text-center">
+			<img src="logo-footer.png" alt="logos">
+		</div>
+	
+		
+		<div class="row">
+		<div class="col-12">
+
+		<p class="fineCopy">
+			1 DETAILS OF OFFER: Offer expires 12/31/2024. Not valid with other offers or prior purchases. Buy one (1) window or entry/patio door, get one (1) window or entry/patio door 40% off, when you purchase four (4) or more windows or entry/patio doors between 10/1/2024 and 12/31/2024. 40% off windows and entry/patio doors are less than or equal to lowest cost window or entry/patio door in the order. Additional $200 off your order, with minimum purchase of four (4), taken after initial discount(s), when you purchase by 12/31/2024.  12 months $0 money down, $0 monthly payments, no interest when you purchase by 12/31/2024. Interest is billed during the promotional period, but all interest is waived if the purchase amount is paid before the expiration of the promotional period. Subject to credit approval. Financing for GreenSky® consumer loan programs is provided by federally insured, federal and state chartered financial institutions without regard to age, race, color, religion, national origin, gender, or familial status. Savings comparison based on purchase of a single unit at list price. Available at participating locations and offer applies throughout the service area. See your local Renewal by Andersen location for details. MHIC #121441. VA License #2705155684. DC License #420215000125. FL License #CGC1527613. Los Angeles and Orange County License #990416. License MN:BC130983/WI:266951. Excludes MN insurance work per MSA 325E.66. PA License#170810. License #RCE-50303. CA License CLSB #1050316. Central CA License #1096271. OR License #198571. WA License #RENEWAP877BM. WA License #RENEWAW856K6. All other license numbers are available upon request. Some Renewal by Andersen locations are independently owned and operated. “ENERGY STAR” is a registered trademark of the U.S. Environmental Protection Agency. “Renewal by Andersen” and all other marks where denoted are trademarks of Andersen Corporation. &copy;2024 Andersen Corporation. All rights reserved. RBA 12222
+		</p>
+		
+			<p class="fineCopy"> &copy; <script type="text/javascript">    document.write(new Date().getFullYear());</script>
+				<span id="FooterDomain">ReplaceMyWindows4Less.com</span>  All rights reserved. |
+				<a href="Privacy-Policy.html" id="PrivacyPolicy" class="">Privacy Policy</a> | <a href="Terms of Use.html" id="Terms_Conds">Terms of Use</a> | <a href="Ca-Privacy-Replace4less.html" id="CaPrivacy">Privacy Notice for CA Residents</a> |<a href="Ca-Privacy-Replace4less.html#DoNotSell" id="DoNotSell" class="">Do Not Sell My Personal Information</a> |<a href="http://pub.s7.exacttarget.com/hxafk4bhe5c?email=&amp;storeId=&amp;optoutsource=ExactCustomer&amp;ctkwd=&amp;ecadid=" id="Unsub">Unsubscribe</a>
+			</p>
+			</div></div>
+		</section>
+
+
+<!-- partial -->
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+  <script  src="script.js"></script>
+</body>
+</html>

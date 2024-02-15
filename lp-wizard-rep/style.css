@@ -1,8 +1,7 @@
 body {
-  background-color: #ffffff;
   color: #444444;
   font-family: 'Lato', sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 300;
   margin: 0;
   padding: 0;
@@ -12,16 +11,24 @@ body {
 
 p {
   font-family: 'Lato', sans-serif;
+  font-size:18px;
 }
 .title {font-size: 1.5rem;}
+
+.wizard-section {
+  background-image:url('rba-wizard-bg.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  padding:0 0 100px 0;
+}
 
 .form-wizard {
   margin:0 auto;
 }
 
 .helper {
-  position:absolute;
-  bottom:20px;
+  /*position:absolute;*/
+  margin-top:40px;
   z-index:-1;
 }
 .helper img {
@@ -31,7 +38,7 @@ p {
   padding:10px;
   margin:10px;
   font-size:1rem;
-  background-color:#999;
+  background-color:lightblue;
   color:#333;
   font-weight: 500;
   border-radius: 0px 80px 80px 110px;
@@ -48,6 +55,10 @@ p {
 }
 
 .wizard-content-offer p {
+  color:#ffffff;
+}
+
+.wizard-content-offer h1, h2, h3 {
   color:#ffffff;
 }
 
@@ -68,7 +79,6 @@ sup {
 }
 
 .form-wizard {
-  color: #888888;
   padding: 20px;
   max-width: 800px;
   margin:0 auto;
@@ -81,7 +91,7 @@ sup {
   font-weight:500;
 }
 .wizard-form-radio label {
-  background-color: #333;
+  background-color: #fff;
   border:none;
   width: 100%;
   padding:20px 10px;
@@ -192,6 +202,7 @@ sup {
 }
 .form-wizard .form-group {
   position: relative;
+  margin-bottom: 20px;
 }
 .form-wizard .wizard-form-text-label {
   position: absolute;
@@ -301,7 +312,6 @@ sup {
   border-radius: 1px;
   cursor: pointer;
   padding: 10px 5px;
-  margin: 10px 0 0 0;
   display: inline-block;
   min-width: 120px;
   text-align: center;
@@ -322,9 +332,17 @@ sup {
   text-decoration: none;
 }
 
-.btn-prev {color: #888888; margin: 9px 0 0 0; padding: 10px; border: 1px solid rgb(157, 157, 157); background-color:#1F1E1C;}
-.btn-prev:hover { text-decoration: underline; color:#333333;}
+.btn-prev {
+  color: #888888;
+  padding: 10px 20px;
+  display: inline-block;
+  background-color: #1F1E1C;
+}
 
+.btn-prev:hover {
+  text-decoration: underline;
+  color: #333333;
+}
 
 
 @media screen and (max-width:575px) {
@@ -340,4 +358,35 @@ sup {
   body, p {
     font-size:14px;
   }
+}
+
+
+/********** CAPTCHA *************/
+.captcha {
+	background-color: rgba(0, 0, 0,0.04);
+	padding:20px;
+	margin:0 0 40px 0;
+}
+
+/********** TCPA *************/
+.tcpa p {
+  font-size:0.625rem;
+  line-height:110%;
+  color:#fff;
+  margin:20px 0 40px 0;  
+}
+
+/********** FOOTER *************/
+#footer {
+  padding:20px 20px 100px 20px;
+  background-color:#000;
+  color:#fff;
+}
+
+#footer p {
+  font-size:11px;
+}
+
+#footer a {
+  color:#ccc;
 }
