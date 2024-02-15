@@ -130,6 +130,7 @@ label {
 
 .wizard-section {
   background-color:#5bab5c;
+  padding:0 0 60px 0;
   /*background-color: #333;*/
 }  
 
@@ -192,7 +193,6 @@ sup {
 
 .form-step-nav  {
   margin-top:20px;
-  margin-bottom:60px;
   text-align: center;
 }
 
@@ -626,4 +626,11 @@ font-size: 16px;
 
 #footer a {
   color:#ccc;
+}
+
+.tcpa p {
+  font-size:0.625rem;
+  line-height:110%;
+  color:#fff;
+  margin:20px 0 0 0;  
 }
