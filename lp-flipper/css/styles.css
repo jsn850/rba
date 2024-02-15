@@ -433,3 +433,10 @@ input::placeholder {
 .form-input.filled {
   box-shadow: 0 2px 0 0 #51b057;
 }
+
+/********** CAPTCHA *************/
+.captcha {
+	background-color: rgba(0, 0, 0,0.04);
+	padding:20px;
+	margin:0 0 40px 0;
+}
